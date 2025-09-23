@@ -1,0 +1,301 @@
+forme_complete,gn1,gn2,relation_attendue,relation_trouvee,nb_relations_directes,nb_relations_inverses
+vin de Bordeaux,vin,Bordeaux,r_lieu>origine,False,5,7
+café du Brésil,café,Brésil,r_lieu>origine,True,6,4
+fromage de Normandie,fromage,Normandie,r_lieu>origine,False,1,1
+huile d'olive de Provence,huile d'olive,Provence,r_lieu>origine,False,2,2
+thé de Chine,thé,Chine,r_lieu>origine,False,4,4
+épices des Indes,épices,Indes,r_lieu>origine,False,1,2
+marbre de Carrare,marbre,Carrare,r_lieu>origine,False,1,3
+soie de Lyon,soie,Lyon,r_lieu>origine,False,2,1
+chocolat de Belgique,chocolat,Belgique,r_lieu>origine,False,5,4
+parfum de Grasse,parfum,Grasse,r_lieu>origine,False,2,3
+avocat de la défense,avocat,défense,r_social_tie,False,7,8
+médecin de famille,médecin,famille,r_social_tie,False,0,2
+chef du groupe,chef,groupe,r_social_tie,False,3,2
+président de l'association,président,association,r_social_tie,False,2,2
+directeur de l'école,directeur,école,r_social_tie,False,3,3
+entraîneur de l'équipe,entraîneur,équipe,r_social_tie,False,3,4
+professeur des étudiants,professeur,étudiants,r_social_tie,False,2,1
+tuteur de l'enfant,tuteur,enfant,r_social_tie,False,1,1
+conseiller du ministre,conseiller,ministre,r_social_tie,False,0,1
+secrétaire du directeur,secrétaire,directeur,r_social_tie,False,2,1
+coque du bateau,coque,bateau,r_holo,True,4,4
+aile de l'avion,aile,avion,r_holo,True,8,5
+toit de la maison,toit,maison,r_holo,True,8,8
+manche du couteau,manche,couteau,r_holo,True,3,3
+écran de l'ordinateur,écran,ordinateur,r_holo,True,7,7
+moteur de la voiture,moteur,voiture,r_holo,True,7,7
+page du livre,page,livre,r_holo,True,7,6
+branche de l'arbre,branche,arbre,r_holo,True,10,8
+pétale de la rose,pétale,rose,r_holo,True,5,4
+roue du vélo,roue,vélo,r_holo,True,5,4
+brin d'herbe,brin,herbe,r_quantificateur,False,4,3
+goutte d'eau,goutte,eau,r_quantificateur,False,4,3
+grain de sable,grain,sable,r_quantificateur,False,6,4
+pincée de sel,pincée,sel,r_quantificateur,False,2,1
+tranche de pain,tranche,pain,r_quantificateur,False,6,4
+verre de vin,verre,vin,r_quantificateur,False,6,5
+cuillère de sucre,cuillère,sucre,r_quantificateur,False,4,4
+morceau de fromage,morceau,fromage,r_quantificateur,False,4,3
+bouteille de lait,bouteille,lait,r_quantificateur,False,4,4
+kilo de pommes,kilo,pommes,r_quantificateur,False,0,0
+cuillère de bois,cuillère,bois,r_objet>matière,False,3,2
+statue de bronze,statue,bronze,r_objet>matière,False,8,7
+bijou d'or,bijou,or,r_objet>matière,False,9,9
+vase de cristal,vase,cristal,r_objet>matière,False,3,2
+table de marbre,table,marbre,r_objet>matière,False,2,2
+pull de laine,pull,laine,r_objet>matière,False,10,8
+sac de cuir,sac,cuir,r_objet>matière,False,5,5
+maison de pierre,maison,pierre,r_objet>matière,False,4,5
+pont de fer,pont,fer,r_objet>matière,False,3,2
+couronne de fleurs,couronne,fleurs,r_objet>matière,False,3,3
+portrait de la reine,portrait,reine,r_depict,False,0,0
+photo de famille,photo,famille,r_depict,False,1,1
+tableau de paysage,tableau,paysage,r_depict,True,6,5
+sculpture de cheval,sculpture,cheval,r_depict,False,0,0
+dessin d'enfant,dessin,enfant,r_depict,False,1,2
+peinture de fleurs,peinture,fleurs,r_depict,True,1,0
+gravure de la cathédrale,gravure,cathédrale,r_depict,False,0,0
+croquis du bâtiment,croquis,bâtiment,r_depict,False,0,0
+schéma du circuit,schéma,circuit,r_depict,False,0,1
+carte de France,carte,France,r_depict,False,2,1
+tour de Pise,tour,Pise,r_lieu,True,2,3
+bataille de Waterloo,bataille,Waterloo,r_lieu,False,1,1
+musée de Paris,musée,Paris,r_lieu,True,3,2
+gare de Lyon,gare,Lyon,r_lieu,True,3,3
+pont d'Avignon,pont,Avignon,r_lieu,False,1,2
+château de Versailles,château,Versailles,r_lieu,True,5,4
+plage de Nice,plage,Nice,r_lieu,False,0,2
+forêt des Ardennes,forêt,Ardennes,r_lieu,False,0,1
+désert du Sahara,désert,Sahara,r_lieu,True,5,6
+restaurant du coin,restaurant,coin,r_lieu,False,0,0
+travail de l'ouvrier,travail,ouvrier,r_processus_agent,False,3,3
+chant de l'oiseau,chant,oiseau,r_processus_agent,False,3,5
+course du cheval,course,cheval,r_processus_agent,False,6,7
+discours du président,discours,président,r_processus_agent,False,3,3
+décision du juge,décision,juge,r_processus_agent,False,0,1
+création de l'artiste,création,artiste,r_processus_agent,False,2,2
+recherche du scientifique,recherche,scientifique,r_processus_agent,False,4,4
+performance de l'acteur,performance,acteur,r_processus_agent,False,2,3
+intervention du médecin,intervention,médecin,r_processus_agent,False,1,1
+témoignage du suspect,témoignage,suspect,r_processus_agent,False,1,2
+destruction de la ville,destruction,ville,r_processus_patient,False,0,0
+réparation de la voiture,réparation,voiture,r_processus_patient,False,1,1
+nettoyage du sol,nettoyage,sol,r_processus_patient,False,0,0
+ouverture de la porte,ouverture,porte,r_processus_patient,False,7,7
+fermeture du magasin,fermeture,magasin,r_processus_patient,False,2,2
+coupe du bois,coupe,bois,r_processus_patient,False,3,2
+lavage de la voiture,lavage,voiture,r_processus_patient,False,1,1
+cuisson du pain,cuisson,pain,r_processus_patient,False,1,3
+lecture du livre,lecture,livre,r_processus_patient,False,8,10
+écriture du texte,écriture,texte,r_processus_patient,False,4,4
+clé de la porte,clé,porte,r_processus>instr-1,False,7,5
+marteau du menuisier,marteau,menuisier,r_processus>instr-1,False,3,3
+stylo de l'écriture,stylo,écriture,r_processus>instr-1,True,5,5
+pinceau du peintre,pinceau,peintre,r_processus>instr-1,False,7,7
+épée du combat,épée,combat,r_processus>instr-1,False,2,2
+outil de travail,outil,travail,r_processus>instr-1,False,2,3
+arme du crime,arme,crime,r_processus>instr-1,False,1,3
+moyen de transport,moyen,transport,r_processus>instr-1,False,3,2
+instrument de musique,instrument,musique,r_processus>instr-1,False,8,9
+appareil de mesure,appareil,mesure,r_processus>instr-1,False,1,0
+voiture de Jean,voiture,Jean,r_own-1,False,0,0
+maison de mes parents,maison,mes parents,r_own-1,False,0,0
+stylo de Marie,stylo,Marie,r_own-1,False,0,0
+ordinateur de l'entreprise,ordinateur,entreprise,r_own-1,False,4,2
+jardin du voisin,jardin,voisin,r_own-1,True,1,2
+livre de Paul,livre,Paul,r_own-1,False,2,0
+montre de ma sœur,montre,ma sœur,r_own-1,False,0,0
+téléphone du directeur,téléphone,directeur,r_own-1,False,0,0
+bureau du professeur,bureau,professeur,r_own-1,True,1,1
+sac de l'étudiante,sac,étudiante,r_own-1,False,0,0
+dégâts de la tempête,dégâts,tempête,r_has_causatif,True,2,3
+retard du train,retard,train,r_has_causatif,False,2,1
+blessures de l'accident,blessures,accident,r_has_causatif,True,3,3
+effets de la pollution,effets,pollution,r_has_causatif,False,0,1
+traces de l'incendie,traces,incendie,r_has_causatif,False,0,0
+séquelles de la maladie,séquelles,maladie,r_has_causatif,True,2,2
+conséquences de la crise,conséquences,crise,r_has_causatif,False,0,0
+résultats de l'enquête,résultats,enquête,r_has_causatif,False,0,2
+fruits du travail,fruits,travail,r_has_causatif,False,0,0
+bénéfices de l'investissement,bénéfices,investissement,r_has_causatif,False,0,0
+roman de Zola,roman,Zola,r_product_of,False,2,2
+symphonie de Beethoven,symphonie,Beethoven,r_product_of,False,3,2
+tableau de Picasso,tableau,Picasso,r_product_of,False,1,1
+film de Spielberg,film,Spielberg,r_product_of,False,1,3
+théorie d'Einstein,théorie,Einstein,r_product_of,False,0,2
+poème de Baudelaire,poème,Baudelaire,r_product_of,True,2,2
+invention de Tesla,invention,Tesla,r_product_of,False,0,1
+découverte de Pasteur,découverte,Pasteur,r_product_of,False,0,0
+œuvre de Mozart,œuvre,Mozart,r_product_of,False,1,0
+création de Dior,création,Dior,r_product_of,False,0,0
+film d'horreur,film,horreur,r_topic,False,2,2
+livre de cuisine,livre,cuisine,r_topic,False,2,1
+cours de mathématiques,cours,mathématiques,r_topic,False,1,3
+magazine de mode,magazine,mode,r_topic,False,3,2
+émission de télévision,émission,télévision,r_topic,False,6,7
+article de sport,article,sport,r_topic,False,0,0
+restaurant de sushis,restaurant,sushis,r_topic,False,0,0
+musée d'art moderne,musée,art moderne,r_topic,False,1,1
+festival de musique,festival,musique,r_topic,False,5,3
+conférence de presse,conférence,presse,r_topic,False,1,0
+beauté du paysage,beauté,paysage,r_has_property-1,False,1,1
+sagesse du vieillard,sagesse,vieillard,r_has_property-1,False,0,1
+force du vent,force,vent,r_has_property-1,False,3,3
+douceur de la soie,douceur,soie,r_has_property-1,False,1,1
+fraîcheur du matin,fraîcheur,matin,r_has_property-1,False,1,0
+chaleur de l'été,chaleur,été,r_has_property-1,False,7,6
+tristesse de la séparation,tristesse,séparation,r_has_property-1,False,2,3
+joie des retrouvailles,joie,retrouvailles,r_has_property-1,False,1,2
+complexité du problème,complexité,problème,r_has_property-1,False,2,2
+simplicité de la solution,simplicité,solution,r_has_property-1,False,0,0
+bière d'Allemagne,bière,Allemagne,r_lieu>origine,False,4,4
+tapas d'Espagne,tapas,Espagne,r_lieu>origine,False,3,3
+vodka de Russie,vodka,Russie,r_lieu>origine,False,4,4
+safran du Maroc,safran,Maroc,r_lieu>origine,False,1,0
+whisky d'Écosse,whisky,Écosse,r_lieu>origine,False,5,4
+pâtes d'Italie,pâtes,Italie,r_lieu>origine,False,5,5
+tulipes de Hollande,tulipes,Hollande,r_lieu>origine,False,1,0
+coton d'Égypte,coton,Égypte,r_lieu>origine,False,1,1
+jade de Birmanie,jade,Birmanie,r_lieu>origine,False,1,1
+diamants d'Afrique,diamants,Afrique,r_lieu>origine,False,3,3
+ami de Pierre,ami,Pierre,r_social_tie,False,1,0
+collègue de Marie,collègue,Marie,r_social_tie,False,0,0
+voisin du quartier,voisin,quartier,r_social_tie,False,5,4
+employé de l'entreprise,employé,entreprise,r_social_tie,False,5,4
+représentant des salariés,représentant,salariés,r_social_tie,False,0,0
+capitaine de l'équipe,capitaine,équipe,r_social_tie,False,2,2
+délégué de classe,délégué,classe,r_social_tie,False,2,2
+maire de la ville,maire,ville,r_social_tie,False,4,5
+gardien de l'immeuble,gardien,immeuble,r_social_tie,False,2,2
+responsable du service,responsable,service,r_social_tie,False,1,2
+touche du piano,touche,piano,r_holo,True,3,4
+lame de l'épée,lame,épée,r_holo,True,8,9
+voile du navire,voile,navire,r_holo,True,4,5
+porte de l'armoire,porte,armoire,r_holo,True,4,4
+poignée du tiroir,poignée,tiroir,r_holo,False,2,3
+pédale du vélo,pédale,vélo,r_holo,True,7,5
+volant de la voiture,volant,voiture,r_holo,True,8,6
+chapitre du livre,chapitre,livre,r_holo,True,8,7
+scène du film,scène,film,r_holo,True,4,3
+étage du bâtiment,étage,bâtiment,r_holo,True,6,4
+litre d'essence,litre,essence,r_quantificateur,False,1,1
+mètre de tissu,mètre,tissu,r_quantificateur,False,1,1
+tas de pierres,tas,pierres,r_quantificateur,False,0,0
+poignée de riz,poignée,riz,r_quantificateur,False,1,1
+nuage de poussière,nuage,poussière,r_quantificateur,False,4,3
+paquet de cigarettes,paquet,cigarettes,r_quantificateur,False,1,2
+rangée d'arbres,rangée,arbres,r_quantificateur,False,0,0
+pile de documents,pile,documents,r_quantificateur,False,0,0
+série de questions,série,questions,r_quantificateur,False,0,0
+ensemble de règles,ensemble,règles,r_quantificateur,False,0,0
+château de sable,château,sable,r_objet>matière,False,4,5
+mur de briques,mur,briques,r_objet>matière,False,1,2
+collier de perles,collier,perles,r_objet>matière,False,4,4
+robe de soie,robe,soie,r_objet>matière,False,4,2
+chaise de plastique,chaise,plastique,r_objet>matière,False,3,1
+escalier de bois,escalier,bois,r_objet>matière,False,3,3
+tuyau de cuivre,tuyau,cuivre,r_objet>matière,False,5,4
+barrière de métal,barrière,métal,r_objet>matière,False,1,1
+coussin de plumes,coussin,plumes,r_objet>matière,False,2,2
+pneu de caoutchouc,pneu,caoutchouc,r_objet>matière,False,4,4
+plan de la ville,plan,ville,r_depict,False,2,1
+maquette du projet,maquette,projet,r_depict,False,2,2
+statue de la liberté,statue,liberté,r_depict,False,1,2
+fresque de la bataille,fresque,bataille,r_depict,False,0,0
+esquisse du monument,esquisse,monument,r_depict,False,0,0
+image du produit,image,produit,r_depict,False,1,0
+reproduction du tableau,reproduction,tableau,r_depict,False,1,1
+représentation du système,représentation,système,r_depict,False,0,0
+illustration du conte,illustration,conte,r_depict,False,0,0
+caricature du président,caricature,président,r_depict,False,0,0
+boulangerie du quartier,boulangerie,quartier,r_lieu,True,2,3
+marché de Noël,marché,Noël,r_lieu,False,0,0
+festival de Cannes,festival,Cannes,r_lieu,False,1,2
+université de Montpellier,université,Montpellier,r_lieu,True,3,3
+aéroport de Roissy,aéroport,Roissy,r_lieu,True,4,6
+hôpital de la ville,hôpital,ville,r_lieu,True,2,2
+bibliothèque du campus,bibliothèque,campus,r_lieu,True,3,3
+stade de France,stade,France,r_lieu,False,1,1
+théâtre de l'Odéon,théâtre,Odéon,r_lieu,False,2,4
+cathédrale de Reims,cathédrale,Reims,r_lieu,False,1,3
+analyse de l'expert,analyse,expert,r_processus_agent,False,2,2
+rapport du comptable,rapport,comptable,r_processus_agent,False,0,0
+enseignement du professeur,enseignement,professeur,r_processus_agent,False,5,5
+construction du maçon,construction,maçon,r_processus_agent,False,3,4
+cuisine du chef,cuisine,chef,r_processus_agent,False,5,7
+plaidoirie de l'avocat,plaidoirie,avocat,r_processus_agent,False,4,6
+diagnostic du médecin,diagnostic,médecin,r_processus_agent,False,6,6
+enquête du détective,enquête,détective,r_processus_agent,False,3,4
+prédiction de l'analyste,prédiction,analyste,r_processus_agent,False,0,1
+commentaire du journaliste,commentaire,journaliste,r_processus_agent,False,1,0
+traduction du document,traduction,document,r_processus_patient,False,1,0
+transformation de la matière,transformation,matière,r_processus_patient,False,0,1
+démolition du bâtiment,démolition,bâtiment,r_processus_patient,False,3,2
+restauration du tableau,restauration,tableau,r_processus_patient,False,0,0
+entretien du jardin,entretien,jardin,r_processus_patient,False,0,0
+analyse du sang,analyse,sang,r_processus_patient,False,2,1
+examen du dossier,examen,dossier,r_processus_patient,False,0,0
+vérification des comptes,vérification,comptes,r_processus_patient,False,0,0
+correction du texte,correction,texte,r_processus_patient,False,0,0
+validation du projet,validation,projet,r_processus_patient,False,0,0
+machine de production,machine,production,r_processus>instr-1,False,2,2
+logiciel de traitement,logiciel,traitement,r_processus>instr-1,False,0,0
+système de sécurité,système,sécurité,r_processus>instr-1,False,1,2
+dispositif de contrôle,dispositif,contrôle,r_processus>instr-1,False,0,0
+équipement de protection,équipement,protection,r_processus>instr-1,False,1,1
+couteau de cuisine,couteau,cuisine,r_processus>instr-1,False,7,5
+aiguille de couture,aiguille,couture,r_processus>instr-1,False,9,6
+brosse de nettoyage,brosse,nettoyage,r_processus>instr-1,False,2,2
+scie de menuisier,scie,menuisier,r_processus>instr-1,False,4,4
+balance de pesée,balance,pesée,r_processus>instr-1,True,3,3
+vélo de l'enfant,vélo,enfant,r_own-1,True,3,2
+lunettes de grand-mère,lunettes,grand-mère,r_own-1,False,0,0
+chien de la famille,chien,famille,r_own-1,True,2,3
+appartement du propriétaire,appartement,propriétaire,r_own-1,False,2,2
+tableau de Van Gogh,tableau,Van Gogh,r_own-1,False,1,1
+collection du musée,collection,musée,r_own-1,False,7,7
+archives de la mairie,archives,mairie,r_own-1,False,2,3
+dossier de l'avocat,dossier,avocat,r_own-1,True,2,6
+cahier de l'élève,cahier,élève,r_own-1,True,5,5
+carte de crédit de Sophie,carte de crédit,Sophie,r_own-1,False,0,0
+ravages de la guerre,ravages,guerre,r_has_causatif,False,0,0
+victimes de l'épidémie,victimes,épidémie,r_has_causatif,False,1,1
+impacts du réchauffement,impacts,réchauffement,r_has_causatif,False,0,0
+répercussions de la décision,répercussions,décision,r_has_causatif,False,0,0
+dommages de l'inondation,dommages,inondation,r_has_causatif,False,0,2
+échec de la négociation,échec,négociation,r_has_causatif,False,0,0
+succès de l'entreprise,succès,entreprise,r_has_causatif,False,0,1
+ruines du tremblement,ruines,tremblement,r_has_causatif,False,0,0
+pertes de la bataille,pertes,bataille,r_has_causatif,False,0,0
+gains de la fusion,gains,fusion,r_has_causatif,False,0,0
+design de Philippe Starck,design,Philippe Starck,r_product_of,False,0,1
+recette du chef,recette,chef,r_product_of,False,1,2
+modèle de l'architecte,modèle,architecte,r_product_of,False,0,1
+chanson de Brel,chanson,Brel,r_product_of,False,1,2
+sculpture de Rodin,sculpture,Rodin,r_product_of,False,1,1
+brevet de l'inventeur,brevet,inventeur,r_product_of,True,4,6
+partition de Chopin,partition,Chopin,r_product_of,False,1,1
+plan de l'ingénieur,plan,ingénieur,r_product_of,False,2,3
+chorégraphie de Béjart,chorégraphie,Béjart,r_product_of,False,1,2
+collection de Chanel,collection,Chanel,r_product_of,False,1,1
+débat de société,débat,société,r_topic,False,2,2
+histoire d'amour,histoire,amour,r_topic,False,3,3
+roman de science-fiction,roman,science-fiction,r_topic,False,3,2
+documentaire de nature,documentaire,nature,r_topic,False,1,0
+exposition de photographie,exposition,photographie,r_topic,False,5,3
+manuel de français,manuel,français,r_topic,False,0,0
+guide de voyage,guide,voyage,r_topic,False,1,1
+blog de technologie,blog,technologie,r_topic,False,0,0
+forum de discussion,forum,discussion,r_topic,False,6,3
+site de commerce,site,commerce,r_topic,False,1,0
+importance de la décision,importance,décision,r_has_property-1,False,0,0
+urgence de la situation,urgence,situation,r_has_property-1,False,1,1
+rareté du diamant,rareté,diamant,r_has_property-1,False,0,0
+valeur de l'or,valeur,or,r_has_property-1,False,4,5
+profondeur de l'océan,profondeur,océan,r_has_property-1,False,2,2
+hauteur de la montagne,hauteur,montagne,r_has_property-1,False,3,2
+vitesse du train,vitesse,train,r_has_property-1,False,3,3
+couleur du ciel,couleur,ciel,r_has_property-1,False,3,4
+température de l'eau,température,eau,r_has_property-1,False,0,2
+densité du métal,densité,métal,r_has_property-1,False,1,0
