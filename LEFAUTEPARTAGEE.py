@@ -9,6 +9,7 @@ from lib_helpers import HelperJDM
 import requests_cache
 import time
 
+
 # Configuration API
 link_api = "https://jdm-api.demo.lirmm.fr/schema"
 api_get_node_by_name = "https://jdm-api.demo.lirmm.fr/v0/node_by_name/{node_name}"
@@ -44,6 +45,17 @@ def directRelation(node1, node2, wanted_relation):
     li_relation = json.loads(li_relation)
     li_relation["relations"] = [
         relation for relation in li_relation["relations"] if relation["type"] == wanted_relation]
+    return li_relation
+
+def infoRelation(node, wanted_relation):
+
+    li_relation = requestWrapper(get_relation_from.format(
+        node1_name=node["name"]))
+    li_relation = json.loads(li_relation)
+    #print(li_relation["relations"])
+    li_relation["relations"] = [
+        relation for relation in li_relation["relations"] if relation["type"] == wanted_relation]
+    #print(li_relation["relations"])
     return li_relation
 
 def get_refinements(term, relation_type='r_raff_sem'):
@@ -94,9 +106,20 @@ def analyzeCorpus(tsv_file_path):
             
             # Récupérer toutes les relations entre GN1 et GN2
             all_relations = getAllRelationsBetween(gn1, gn2)
-            
+            node1 = getNodeByName(gn1)
+            node2 = getNodeByName(gn2)
+            if not "error" in node1 and not "error" in node2:
+
+                # Récupérer les informations sémantiques des nœuds
+                info_sem__relation_1 = infoRelation(getNodeByName(gn1), HelperJDM.nom_a_nombre["r_isa"])
+                info_sem__relation_2 = infoRelation(getNodeByName(gn2), HelperJDM.nom_a_nombre["r_isa"])
+            else:
+                info_sem__relation_1 = {'relations': []}
+                info_sem__relation_2 = {'relations': []}
             # Filtrer et formater les relations trouvées
             found_relations = []
+            info_sem_1 = []
+            info_sem_2 = []
             expected_relation_found = False
             expected_relation_id = relation_mapping.get(relation_semantique)
             
@@ -114,6 +137,22 @@ def analyzeCorpus(tsv_file_path):
                 if rel_type == expected_relation_id:
                     expected_relation_found = True
             
+            for info in info_sem__relation_1['relations']:
+                info_sem_1.append({
+                    'id': info.get('type'),
+                    'name': translate_relationNBtoNOM(info.get('type')),
+                    'weight': info.get('weight', 0),
+                    'node2': info.get('node2', None)
+                })
+
+            for info in info_sem__relation_2['relations']:
+                info_sem_2.append({
+                    'id': info.get('type'),
+                    'name': translate_relationNBtoNOM(info.get('type')),
+                    'weight': info.get('weight', 0),
+                    'node2': info.get('node2', None)
+                })
+
             # Aussi vérifier les relations inverses (GN2 -> GN1)
             all_relations_inverse = getAllRelationsBetween(gn2, gn1)
             found_relations_inverse = []
@@ -139,7 +178,9 @@ def analyzeCorpus(tsv_file_path):
                 'relations_jdm_directes': found_relations,
                 'relations_jdm_inverses': found_relations_inverse,
                 'nb_relations_directes': len(found_relations),
-                'nb_relations_inverses': len(found_relations_inverse)
+                'nb_relations_inverses': len(found_relations_inverse),
+                'info_sem_gn1': info_sem_1,
+                'info_sem_gn2': info_sem_2
             }
             
             results.append(result)
