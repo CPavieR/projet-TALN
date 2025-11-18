@@ -39,6 +39,11 @@ def getNodeByName(node_name):
         api_get_node_by_name.format(node_name=node_name))
     return json.loads(jsonString)
 
+def getNodeById(node_id):
+    jsonString = requestWrapper(
+        get_node_by_id.format(node_id=node_id))
+    return json.loads(jsonString)
+
 def directRelation(node1, node2, wanted_relation):
     li_relation = requestWrapper(get_relation_between.format(
         node1_name=node1["name"], node2_name=node2["name"]))
@@ -54,7 +59,7 @@ def infoRelation(node, wanted_relation):
     li_relation = json.loads(li_relation)
     #print(li_relation["relations"])
     li_relation["relations"] = [
-        relation for relation in li_relation["relations"] if relation["type"] == wanted_relation]
+        relation for relation in li_relation["relations"] if relation["type"] in wanted_relation]
     #print(li_relation["relations"])
     return li_relation
 
@@ -111,8 +116,8 @@ def analyzeCorpus(tsv_file_path):
             if not "error" in node1 and not "error" in node2:
 
                 # Récupérer les informations sémantiques des nœuds
-                info_sem__relation_1 = infoRelation(getNodeByName(gn1), HelperJDM.nom_a_nombre["r_isa"])
-                info_sem__relation_2 = infoRelation(getNodeByName(gn2), HelperJDM.nom_a_nombre["r_isa"])
+                info_sem__relation_1 = infoRelation(getNodeByName(gn1),  [HelperJDM.nom_a_nombre["r_isa"],HelperJDM.nom_a_nombre["r_infopot"]])
+                info_sem__relation_2 = infoRelation(getNodeByName(gn2),  [HelperJDM.nom_a_nombre["r_isa"],HelperJDM.nom_a_nombre["r_infopot"]])
             else:
                 info_sem__relation_1 = {'relations': []}
                 info_sem__relation_2 = {'relations': []}
@@ -127,7 +132,7 @@ def analyzeCorpus(tsv_file_path):
                 rel_type = rel.get('type')
                 rel_weight = rel.get('w', 0)
                 rel_name = translate_relationNBtoNOM(rel_type)
-                
+
                 found_relations.append({
                     'id': rel_type,
                     'name': rel_name,
@@ -138,20 +143,27 @@ def analyzeCorpus(tsv_file_path):
                     expected_relation_found = True
             
             for info in info_sem__relation_1['relations']:
-                info_sem_1.append({
-                    'id': info.get('type'),
-                    'name': translate_relationNBtoNOM(info.get('type')),
-                    'weight': info.get('weight', 0),
-                    'node2': info.get('node2', None)
-                })
+                if (rel_name != "r_infopot" or info.get('node2', None).startswith("_INFO-SEM")):
+
+                    info_sem_1.append({
+                        'id': info.get('type'),
+                        'name': translate_relationNBtoNOM(info.get('type')),
+                        'weight': info.get('w', 0),
+                        'node2': info.get('node2', None),
+                        'node2_name': getNodeById(info.get('node2', None)).get('name', None)
+                    })
+            with open('debug/debug_info_sem_1'+gn1+'.json', 'w', encoding='utf-8') as debug_file:
+                json.dump(info_sem__relation_1, debug_file, ensure_ascii=False, indent=2)
 
             for info in info_sem__relation_2['relations']:
-                info_sem_2.append({
-                    'id': info.get('type'),
-                    'name': translate_relationNBtoNOM(info.get('type')),
-                    'weight': info.get('weight', 0),
-                    'node2': info.get('node2', None)
-                })
+                if (rel_name != "r_infopot" or info.get('node2', None).startswith("_INFO-SEM")):
+                    info_sem_2.append({
+                        'id': info.get('type'),
+                        'name': translate_relationNBtoNOM(info.get('type')),
+                        'weight': info.get('w', 0),
+                        'node2': info.get('node2', None),
+                        'node2_name': getNodeById(info.get('node2', None)).get('name', None)
+                    })
 
             # Aussi vérifier les relations inverses (GN2 -> GN1)
             all_relations_inverse = getAllRelationsBetween(gn2, gn1)
