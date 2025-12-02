@@ -8,6 +8,7 @@ import csv
 from lib_helpers import HelperJDM
 import requests_cache
 import time
+import click
 
 
 # Configuration API
@@ -87,7 +88,7 @@ def getAllRelationsBetween(node1_name, node2_name):
         print(f"Erreur lors de la récupération des relations: {e}")
         return []
 
-def analyzeCorpus(tsv_file_path):
+def analyzeCorpus(tsv_file_path, delay=0.1):
     """
     Analyse le corpus TSV et récupère les relations JDM pour chaque paire
     """
@@ -171,7 +172,7 @@ def analyzeCorpus(tsv_file_path):
             
             for rel in all_relations_inverse:
                 rel_type = rel.get('type')
-                rel_weight = rel.get('weight', 0)
+                rel_weight = rel.get('w', 0)
                 rel_name = translate_relationNBtoNOM(rel_type)
                 
                 found_relations_inverse.append({
@@ -198,7 +199,7 @@ def analyzeCorpus(tsv_file_path):
             results.append(result)
             
             # Petit délai pour ne pas surcharger l'API
-            time.sleep(0.1)
+            time.sleep(delay)
     
     return results
 
@@ -266,25 +267,26 @@ def saveResults(results, output_file="corpus_analysis_results.json"):
         json.dump(results, f, ensure_ascii=False, indent=2)
     print(f"\nRésultats sauvegardés dans {output_file}")
 
-# Fonction principale
-def main():
-    # Remplacez par le chemin de votre fichier TSV
-    tsv_file = "corpus_genitif_tsv.tsv"
-    
+@click.command()
+@click.option('--tsv-file', default='corpus_genitif_tsv.tsv', help='Path to TSV file.')
+@click.option('--output-json', default='corpus_analysis_results.json', help='JSON output file.')
+@click.option('--output-csv', default='corpus_analysis_results.csv', help='CSV output file.')
+@click.option('--delay', default=0.1, type=float, help='Delay between API requests in seconds.')
+def main(tsv_file, output_json, output_csv, delay):
     print("Début de l'analyse du corpus...")
     print("Cela peut prendre plusieurs minutes selon la taille du corpus.\n")
     
     # Analyser le corpus
-    results = analyzeCorpus(tsv_file)
+    results = analyzeCorpus(tsv_file, delay=delay)
     
     # Générer le rapport
     stats = generateReport(results)
     
     # Sauvegarder les résultats
-    saveResults(results)
+    saveResults(results, output_json)
     
     # Optionnel: Sauvegarder aussi un CSV pour analyse dans Excel
-    with open("corpus_analysis.csv", 'w', encoding='utf-8', newline='') as f:
+    with open(output_csv, 'w', encoding='utf-8', newline='') as f:
         fieldnames = ['forme_complete', 'gn1', 'gn2', 'relation_attendue', 
                      'relation_trouvee', 'nb_relations_directes', 'nb_relations_inverses']
         writer = csv.DictWriter(f, fieldnames=fieldnames)
@@ -294,8 +296,6 @@ def main():
     
     print("\nAnalyse terminée!")
     print("Fichiers générés:")
-    print("  - corpus_analysis_results.json (résultats détaillés)")
-    print("  - corpus_analysis.csv (résumé pour tableur)")
 
 if __name__ == "__main__":
     main()
