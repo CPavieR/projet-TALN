@@ -53,15 +53,37 @@ def directRelation(node1, node2, wanted_relation):
         relation for relation in li_relation["relations"] if relation["type"] == wanted_relation]
     return li_relation
 
-def infoRelation(node, wanted_relation):
+def infoRelationFiltered(node, wanted_relation):
 
     li_relation = requestWrapper(get_relation_from.format(
         node1_name=node["name"]))
     li_relation = json.loads(li_relation)
+    #normalize  weights
+    weigth_max = max([relation['w'] for relation in li_relation["relations"] if 'w' in relation], default=1)
+    for relation in li_relation["relations"]:
+        if 'w' in relation:
+            relation['w'] = relation['w'] / weigth_max
     #print(li_relation["relations"])
     li_relation["relations"] = [
         relation for relation in li_relation["relations"] if relation["type"] in wanted_relation]
     #print(li_relation["relations"])
+    return li_relation
+
+def infoRelationTop10(node):
+
+    li_relation = requestWrapper(get_relation_from.format(
+        node1_name=node["name"]))
+    li_relation = json.loads(li_relation)
+    weigths = [
+        relation['w'] for relation in li_relation["relations"] if 'w' in relation]
+    weigths = sorted(weigths, reverse=True)[:10]
+    li_relation["relations"] = [
+        relation for relation in li_relation["relations"] if relation.get('w', 0) in weigths]
+    #print(li_relation["relations"])
+    weigth_max = max(weigths, default=1)
+    for relation in li_relation["relations"]:
+        if 'w' in relation:
+            relation['w'] = relation['w'] / weigth_max
     return li_relation
 
 def get_refinements(term, relation_type='r_raff_sem'):
@@ -94,9 +116,6 @@ def analyzeCorpus(tsv_file_path, delay=0.1):
     """
     results = []
     
-    # Mapping des relations du corpus vers les IDs JDM
-    relation_mapping = HelperJDM.nom_a_nombre
-    
     # Lire le corpus TSV
     with open(tsv_file_path, 'r', encoding='utf-8') as file:
         reader = csv.DictReader(file, delimiter='\t')
@@ -110,15 +129,30 @@ def analyzeCorpus(tsv_file_path, delay=0.1):
             gn1 = row['GN1']
             gn2 = row['GN2']
             
-            # Récupérer toutes les relations entre GN1 et GN2
+            result = process_genetive(gn1, gn2, relation_semantique, forme_complete)
+            
+            results.append(result)
+            
+            # Petit délai pour ne pas surcharger l'API
+            time.sleep(delay)
+    
+    return results
+
+def process_genetive(gn1, gn2, relation_semantique, forme_complete):
+                # Récupérer toutes les relations entre GN1 et GN2
             all_relations = getAllRelationsBetween(gn1, gn2)
             node1 = getNodeByName(gn1)
             node2 = getNodeByName(gn2)
             if not "error" in node1 and not "error" in node2:
 
                 # Récupérer les informations sémantiques des nœuds
-                info_sem__relation_1 = infoRelation(getNodeByName(gn1),  [HelperJDM.nom_a_nombre["r_isa"],HelperJDM.nom_a_nombre["r_infopot"]])
-                info_sem__relation_2 = infoRelation(getNodeByName(gn2),  [HelperJDM.nom_a_nombre["r_isa"],HelperJDM.nom_a_nombre["r_infopot"]])
+                info_sem__relation_1 = infoRelationFiltered(getNodeByName(gn1),  [HelperJDM.nom_a_nombre["r_isa"],HelperJDM.nom_a_nombre["r_infopot"]])
+                info_sem__relation_2 = infoRelationFiltered(getNodeByName(gn2),  [HelperJDM.nom_a_nombre["r_isa"],HelperJDM.nom_a_nombre["r_infopot"]])
+                
+                
+                info_sem__relation_1["relations"] = info_sem__relation_1["relations"] + infoRelationTop10(getNodeByName(gn1))["relations"]
+                info_sem__relation_2["relations"] = info_sem__relation_2["relations"] + infoRelationTop10(getNodeByName(gn2))["relations"]
+                
             else:
                 info_sem__relation_1 = {'relations': []}
                 info_sem__relation_2 = {'relations': []}
@@ -127,8 +161,10 @@ def analyzeCorpus(tsv_file_path, delay=0.1):
             info_sem_1 = []
             info_sem_2 = []
             expected_relation_found = False
-            expected_relation_id = relation_mapping.get(relation_semantique)
-            
+            if relation_semantique != None:
+                expected_relation_id = HelperJDM.nom_a_nombre.get(relation_semantique)
+            else:
+                expected_relation_id = None
             for rel in all_relations:
                 rel_type = rel.get('type')
                 rel_weight = rel.get('w', 0)
@@ -144,27 +180,29 @@ def analyzeCorpus(tsv_file_path, delay=0.1):
                     expected_relation_found = True
             
             for info in info_sem__relation_1['relations']:
-                if (rel_name != "r_infopot" or info.get('node2', None).startswith("_INFO-SEM")):
-
-                    info_sem_1.append({
-                        'id': info.get('type'),
-                        'name': translate_relationNBtoNOM(info.get('type')),
-                        'weight': info.get('w', 0),
-                        'node2': info.get('node2', None),
-                        'node2_name': getNodeById(info.get('node2', None)).get('name', None)
-                    })
-            with open('debug/debug_info_sem_1'+gn1+'.json', 'w', encoding='utf-8') as debug_file:
-                json.dump(info_sem__relation_1, debug_file, ensure_ascii=False, indent=2)
-
+                rel_name = translate_relationNBtoNOM(info.get('type'))
+                if (rel_name != "r_infopot" or getNodeById(info.get('node2', None)).get('name', '').startswith("_INFO-SEM")):
+                    node2_name = getNodeById(info.get('node2', None)).get('name', None)
+                    if not node2_name.startswith(":r") :
+                        info_sem_1.append({
+                            'id': info.get('type'),
+                            'name': translate_relationNBtoNOM(info.get('type')),
+                            'weight': info.get('w', 0),
+                            'node2': info.get('node2', None),
+                            'node2_name': node2_name
+                        })
             for info in info_sem__relation_2['relations']:
-                if (rel_name != "r_infopot" or info.get('node2', None).startswith("_INFO-SEM")):
-                    info_sem_2.append({
-                        'id': info.get('type'),
-                        'name': translate_relationNBtoNOM(info.get('type')),
-                        'weight': info.get('w', 0),
-                        'node2': info.get('node2', None),
-                        'node2_name': getNodeById(info.get('node2', None)).get('name', None)
-                    })
+                rel_name = translate_relationNBtoNOM(info.get('type'))
+                if (rel_name != "r_infopot" or getNodeById(info.get('node2', None)).get('name', '').startswith("_INFO-SEM")):
+                    node2_name = getNodeById(info.get('node2', None)).get('name', None)
+                    if not node2_name.startswith(":r") :
+                        info_sem_2.append({
+                            'id': info.get('type'),
+                            'name': translate_relationNBtoNOM(info.get('type')),
+                            'weight': info.get('w', 0),
+                            'node2': info.get('node2', None),
+                            'node2_name': node2_name
+                        })
 
             # Aussi vérifier les relations inverses (GN2 -> GN1)
             all_relations_inverse = getAllRelationsBetween(gn2, gn1)
@@ -181,7 +219,7 @@ def analyzeCorpus(tsv_file_path, delay=0.1):
                     'weight': rel_weight
                 })
             
-            result = {
+            return {
                 'forme_complete': forme_complete,
                 'gn1': gn1,
                 'gn2': gn2,
@@ -195,13 +233,6 @@ def analyzeCorpus(tsv_file_path, delay=0.1):
                 'info_sem_gn1': info_sem_1,
                 'info_sem_gn2': info_sem_2
             }
-            
-            results.append(result)
-            
-            # Petit délai pour ne pas surcharger l'API
-            time.sleep(delay)
-    
-    return results
 
 def generateReport(results):
     """
@@ -275,20 +306,16 @@ def saveResults(results, output_file="corpus_analysis_results.json"):
 def main(tsv_file, output_json, output_csv, delay):
     print("Début de l'analyse du corpus...")
     print("Cela peut prendre plusieurs minutes selon la taille du corpus.\n")
-    
-    # Analyser le corpus
+
     results = analyzeCorpus(tsv_file, delay=delay)
-    
-    # Générer le rapport
+
     stats = generateReport(results)
     
-    # Sauvegarder les résultats
     saveResults(results, output_json)
     
-    # Optionnel: Sauvegarder aussi un CSV pour analyse dans Excel
     with open(output_csv, 'w', encoding='utf-8', newline='') as f:
         fieldnames = ['forme_complete', 'gn1', 'gn2', 'relation_attendue', 
-                     'relation_trouvee', 'nb_relations_directes', 'nb_relations_inverses']
+                    'relation_trouvee', 'nb_relations_directes', 'nb_relations_inverses']
         writer = csv.DictWriter(f, fieldnames=fieldnames)
         writer.writeheader()
         for r in results:

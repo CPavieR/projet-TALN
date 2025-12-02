@@ -4,7 +4,7 @@ from collections import defaultdict
 from typing import List, Dict, Set, Tuple
 from dataclasses import dataclass, field
 import click
-
+from LEFAUTEPARTAGEE import process_genetive
 @dataclass
 class Rule:
     """A rule is a pair of signatures with a relation type and per-symbol weights"""
@@ -62,14 +62,26 @@ class vectorCreator:
         with open("info_sem_debug.json", "w", encoding="utf-8") as debug_file:
             json.dump(term_data, debug_file, ensure_ascii=False, indent=2)
         # H - r_isa relation
-        if self.use_hypernyms and f'info_sem_{term_name}' in term_data:
-            info_sem = term_data[f'info_sem_{term_name}']
+        if self.use_hypernyms and f'info_sem_{term_position}' in term_data:
+            info_sem = term_data[f'info_sem_{term_position}']
+            #print(f"info_sem content: {info_sem}")
             if isinstance(info_sem, list):
+                #print(f"Processing {len(info_sem)} semantic relations for {term_name}")
+                
+                weight_list = [r["weight"] for r in info_sem if "weight" in r and r.get('name') == 'r_isa']
+                weight_list.sort(reverse=True)
+                if len(weight_list) > 10:
+                    weight_list = weight_list[:10]
+                seuil = weight_list[-1] if weight_list else 0
+                
                 for rel in info_sem:
-                    if rel.get('name') == 'r_isa' and 'node2' in rel:
-                        # node2 contains the hypernym ID, we'd need to map to string
-                        # For now, use a symbolic representation
-                        signature.add(f"{rel['node2_name']}")
+                    
+                    if rel.get('weight') >= seuil:
+                        if rel.get('name') == 'r_isa' and 'node2' in rel:
+                            
+                            # node2 contains the hypernym ID, we'd need to map to string
+                            # For now, use a symbolic representation
+                            signature.add(f"{rel['node2_name']}")
         
         # TRT
         if self.use_trt:
@@ -93,7 +105,7 @@ class vectorCreator:
             if isinstance(info_sem, list):
                 for rel in info_sem:
                     if 'name' in rel and rel['name'].startswith('r_infopot'):
-                        signature.add(rel['name'])
+                        signature.add(rel['node2_name'])
         
         # Definiteness (for gn2 only)
         if self.use_definiteness and is_gn2:
@@ -181,11 +193,19 @@ class vectorCreator:
         left_weights = rule1.signature_left_weights.copy()
         for k, v in rule2.signature_left_weights.items():
             left_weights[k] = left_weights.get(k, 0.0) + v
-        
+        #normalize left weights
+        maxi = max([v for v in left_weights.values()])
+        for k in left_weights:
+            left_weights[k] = left_weights[k]/maxi
+            
         right_weights = rule1.signature_right_weights.copy()
         for k, v in rule2.signature_right_weights.items():
             right_weights[k] = right_weights.get(k, 0.0) + v
-        
+        #normalize right weights
+        maxi = max([v for v in right_weights.values()])
+        for k in right_weights:
+            right_weights[k] = right_weights[k]/maxi
+            
         return Rule(
             signature_left=new_left,
             signature_right=new_right,
@@ -316,7 +336,7 @@ class vectorCreator:
         # extract signatures 
         sig_left = self.extract_signature(example, gn1, is_gn2=False)
         sig_right = self.extract_signature(example, gn2, is_gn2=True)
-        
+        print(f"Signatures for classification:\n Left: {sig_left}\n Right: {sig_right}")
         scores = defaultdict(list)
         
         for type,rules in self.rules_by_type.items():
@@ -451,7 +471,37 @@ class vectorCreator:
 
 
 # Usage Example
-@click.command()
+import json as _json
+import click as _click
+
+def _serialize_rule(rule: Rule) -> Dict:
+    """Convert a Rule object to JSON-serializable dict."""
+    return {
+        'signature_left': list(rule.signature_left),
+        'signature_right': list(rule.signature_right),
+        'signature_left_weights': rule.signature_left_weights,
+        'signature_right_weights': rule.signature_right_weights,
+        'relation_type': rule.relation_type,
+        'weight': rule.weight
+    }
+def _deserialize_rule(data: Dict) -> Rule:
+    """Convert a JSON-serializable dict back to a Rule object."""
+    return Rule(
+        signature_left=set(data['signature_left']),
+        signature_right=set(data['signature_right']),
+        signature_left_weights=data['signature_left_weights'],
+        signature_right_weights=data['signature_right_weights'],
+        relation_type=data['relation_type'],
+        weight=data['weight']
+    )
+
+@click.group()
+def main_cli():
+    """Group of commands for training/evaluating the vectorCreator."""
+    pass
+
+
+@main_cli.command('train-eval')
 @click.option('--train-json', default='corpus_analysis_results.json', help='Training JSON file path.')
 @click.option('--test-json', default='test_dataset.json', help='Test JSON file path.')
 @click.option('--use-hypernyms/--no-use-hypernyms', default=True, help='Include hypernyms (r_isa).')
@@ -460,7 +510,8 @@ class vectorCreator:
 @click.option('--use-definiteness/--no-use-definiteness', default=False, help='Include definiteness features.')
 @click.option('--fusion-threshold', default=0.5, type=float, help='Similarity threshold for merging rules.')
 @click.option('--trim-rules/--no-trim-rules', default=False, help='Keep only merged rules.')
-def cli(train_json, test_json, use_hypernyms, use_trt, use_sst, use_definiteness, fusion_threshold, trim_rules):
+def train_eval(train_json, test_json, use_hypernyms, use_trt, use_sst, use_definiteness, fusion_threshold, trim_rules):
+    """Train on train-json and evaluate on test-json (same behaviour as before)."""
     with open(train_json, "r", encoding="utf-8") as f:
         train_data = json.load(f)
     with open(test_json, "r", encoding="utf-8") as f:
@@ -481,5 +532,100 @@ def cli(train_json, test_json, use_hypernyms, use_trt, use_sst, use_definiteness
 
     return results
 
+
+@main_cli.command('train-save-rules')
+@click.option('--train-json', default='corpus_analysis_results.json', help='Training JSON file path.')
+@click.option('--out-file', default='rules.json', help='Output file path to save trained rules.')
+@click.option('--use-hypernyms/--no-use-hypernyms', default=True, help='Include hypernyms (r_isa).')
+@click.option('--use-trt/--no-use-trt', default=True, help='Include TRT features.')
+@click.option('--use-sst/--no-use-sst', default=True, help='Include SST features.')
+@click.option('--use-definiteness/--no-use-definiteness', default=False, help='Include definiteness features.')
+@click.option('--fusion-threshold', default=0.5, type=float, help='Similarity threshold for merging rules.')
+@click.option('--trim-rules/--no-trim-rules', default=False, help='Keep only merged rules.')
+def train_save_rules(train_json, out_file, use_hypernyms, use_trt, use_sst, use_definiteness, fusion_threshold, trim_rules):
+    """
+    Train on train-json and save the learned rules to out-file (JSON).
+    The saved file contains a list of serializable rule dicts.
+    """
+    with open(train_json, "r", encoding="utf-8") as f:
+        train_data = _json.load(f)
+
+    vector = vectorCreator(
+        use_hypernyms=use_hypernyms,
+        use_trt=use_trt,
+        use_sst=use_sst,
+        use_definiteness=use_definiteness,
+        fusion_threshold=fusion_threshold,
+        trim_rules=trim_rules
+    )
+
+    vector.train(train_data)
+
+    serializable = [_serialize_rule(r) for r in vector.rules]
+    with open(out_file, "w", encoding="utf-8") as outf:
+        json.dump(serializable, outf, ensure_ascii=False, indent=2)
+
+    print(f"Saved {len(serializable)} rules to {out_file}")
+
+
+@main_cli.command('load-eval')
+@click.option('--rules-file', default='rules.json', help='JSON file path containing saved rules.')
+@click.option('--test-json', default='test_dataset.json', help='Test JSON file path.')
+def load_eval(rules_file, test_json):
+    """
+    Load rules from rules-file and evaluate on test-json.
+    The rules-file should contain a list of serializable rule dicts.
+    """
+    with open(rules_file, "r", encoding="utf-8") as f:
+        rules_data = json.load(f)
+    with open(test_json, "r", encoding="utf-8") as f:
+        test_data = json.load(f)
+
+    vector = vectorCreator()
+    vector.rules = [_deserialize_rule(r) for r in rules_data]
+
+    # Rebuild rules_by_type for classification
+    vector.rules_by_type = defaultdict(list)
+    for rule in vector.rules:
+        vector.rules_by_type[rule.relation_type].append(rule)
+
+    results = vector.evaluate(test_data)
+
+    return results
+
+@main_cli.command("inference")
+@click.option('--rules-file', default='rules.json', help='JSON file path containing saved rules.')
+@click.option('--genetive', required=True, help='Test JSON file path.')
+def load_eval(rules_file, genetive):
+
+    with open(rules_file, "r", encoding="utf-8") as f:
+        rules_data = json.load(f)
+
+    vector = vectorCreator()
+    vector.rules = [_deserialize_rule(r) for r in rules_data]
+
+    # Rebuild rules_by_type for classification
+    vector.rules_by_type = defaultdict(list)
+    for rule in vector.rules:
+        vector.rules_by_type[rule.relation_type].append(rule)
+    if " de " in genetive:
+        gn1, gn2 = genetive.split(" de ", 1)
+    elif " des " in genetive:
+        gn1, gn2 = genetive.split(" des ", 1)
+    elif " du " in genetive:
+        gn1, gn2 = genetive.split(" du ", 1)
+    elif " de la " in genetive:
+        gn1, gn2 = genetive.split(" de la ", 1)
+    elif " de l'" in genetive:
+        gn1, gn2 = genetive.split(" de l'", 1)
+    else:
+        print("No valid genetive structure found.")
+        return
+    example = process_genetive(gn1, gn2, None, genetive)
+    #print(example)
+    predicted, confidence, all_scores = vector.classify(example)
+    print(f"Predicted relation: {predicted} (confidence: {confidence:.3f})")
+    print(f"All scores: {all_scores}")
+
 if __name__ == "__main__":
-    cli()
+    main_cli()
