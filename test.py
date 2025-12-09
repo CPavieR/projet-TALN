@@ -59,8 +59,8 @@ class vectorCreator:
         term_position = 'gn2' if is_gn2 else 'gn1'
         # Ajouter terme luimême
         signature.add(term_name)
-        with open("info_sem_debug.json", "w", encoding="utf-8") as debug_file:
-            json.dump(term_data, debug_file, ensure_ascii=False, indent=2)
+        #with open("info_sem_debug.json", "w", encoding="utf-8") as debug_file:
+        #    json.dump(term_data, debug_file, ensure_ascii=False, indent=2)
         # H - r_isa relation
         if self.use_hypernyms and f'info_sem_{term_position}' in term_data:
             info_sem = term_data[f'info_sem_{term_position}']
@@ -82,6 +82,7 @@ class vectorCreator:
                             # node2 contains the hypernym ID, we'd need to map to string
                             # For now, use a symbolic representation
                             signature.add(f"{rel['node2_name']}")
+                            Sceance#print(f"Added hypernym {rel['node2_name']} for {term_name}")
         
         # TRT
         if self.use_trt:
@@ -96,6 +97,7 @@ class vectorCreator:
                 for rel in info_sem:
                     if rel.get('weight') >= seuil:
                         signature.add(f"{rel.get('name')}")
+                        #print(f"Added TRT {rel.get('name')} for {term_name}")
                         
 
         #TODO : not in preprocess data yet
@@ -106,6 +108,7 @@ class vectorCreator:
                 for rel in info_sem:
                     if 'name' in rel and rel['name'].startswith('r_infopot'):
                         signature.add(rel['node2_name'])
+                        #print(f"Added SST {rel['node2_name']} for {term_name}")
         
         # Definiteness (for gn2 only)
         if self.use_definiteness and is_gn2:

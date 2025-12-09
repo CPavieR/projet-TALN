@@ -57,17 +57,24 @@ def infoRelationFiltered(node, wanted_relation):
 
     li_relation = requestWrapper(get_relation_from.format(
         node1_name=node["name"]))
-    li_relation = json.loads(li_relation)
-    #normalize  weights
-    weigth_max = max([relation['w'] for relation in li_relation["relations"] if 'w' in relation], default=1)
-    for relation in li_relation["relations"]:
-        if 'w' in relation:
-            relation['w'] = relation['w'] / weigth_max
-    #print(li_relation["relations"])
-    li_relation["relations"] = [
-        relation for relation in li_relation["relations"] if relation["type"] in wanted_relation]
-    #print(li_relation["relations"])
-    return li_relation
+    if not li_relation:
+        print("failed request for node:", node["name"])
+        return {'relations': []}
+    try:
+        li_relation = json.loads(li_relation)
+        #normalize  weights
+        weigth_max = max([relation['w'] for relation in li_relation["relations"] if 'w' in relation], default=1)
+        for relation in li_relation["relations"]:
+            if 'w' in relation:
+                relation['w'] = relation['w'] / weigth_max
+        #print(li_relation["relations"])
+        li_relation["relations"] = [
+            relation for relation in li_relation["relations"] if relation["type"] in wanted_relation]
+        #print(li_relation["relations"])
+        return li_relation
+    except Exception as e:
+        print("error parsing json for node:", node["name"], "error:", e)
+        return {'relations': []}
 
 def infoRelationTop10(node):
 
@@ -195,7 +202,7 @@ def process_genetive(gn1, gn2, relation_semantique, forme_complete):
                 rel_name = translate_relationNBtoNOM(info.get('type'))
                 if (rel_name != "r_infopot" or getNodeById(info.get('node2', None)).get('name', '').startswith("_INFO-SEM")):
                     node2_name = getNodeById(info.get('node2', None)).get('name', None)
-                    if not node2_name.startswith(":r") :
+                    if node2_name is not None and not node2_name.startswith(":r") :
                         info_sem_2.append({
                             'id': info.get('type'),
                             'name': translate_relationNBtoNOM(info.get('type')),

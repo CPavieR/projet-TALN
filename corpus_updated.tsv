@@ -1,0 +1,1506 @@
+relation_semantique	forme_complete	GN1	GN2
+r_lieu>origine	vin de Bordeaux	vin	Bordeaux
+r_lieu>origine	café du Brésil	café	Brésil
+r_lieu>origine	fromage de Normandie	fromage	Normandie
+r_lieu>origine	huile d'olive de Provence	huile d'olive	Provence
+r_lieu>origine	thé de Chine	thé	Chine
+r_lieu>origine	épices des Indes	épices	Indes
+r_lieu>origine	marbre de Carrare	marbre	Carrare
+r_lieu>origine	soie de Lyon	soie	Lyon
+r_lieu>origine	chocolat de Belgique	chocolat	Belgique
+r_lieu>origine	parfum de Grasse	parfum	Grasse
+r_lieu>origine	bière d'Allemagne	bière	Allemagne
+r_lieu>origine	tapas d'Espagne	tapas	Espagne
+r_lieu>origine	vodka de Russie	vodka	Russie
+r_lieu>origine	safran du Maroc	safran	Maroc
+r_lieu>origine	whisky d'Écosse	whisky	Écosse
+r_lieu>origine	pâtes d'Italie	pâtes	Italie
+r_lieu>origine	tulipes de Hollande	tulipes	Hollande
+r_lieu>origine	coton d'Égypte	coton	Égypte
+r_lieu>origine	jade de Birmanie	jade	Birmanie
+r_lieu>origine	diamants d'Afrique	diamants	Afrique
+r_lieu>origine	poivre de Madagascar	poivre	Madagascar
+r_lieu>origine	miel de Savoie	miel	Savoie
+r_lieu>origine	risotto de Milan	risotto	Milan
+r_lieu>origine	vin de Toscane	vin	Toscane
+r_lieu>origine	beurre de Bretagne	beurre	Bretagne
+r_lieu>origine	porcelaine de Limoges	porcelaine	Limoges
+r_lieu>origine	safran d'Iran	safran	Iran
+r_lieu>origine	thé du Japon	thé	Japon
+r_lieu>origine	café d’Éthiopie	café	Éthiopie
+r_lieu>origine	agneau du Quercy	agneau	Quercy
+r_lieu>origine	marbre du Vermont	marbre	Vermont
+r_lieu>origine	tabac de Virginie	tabac	Virginie
+r_lieu>origine	champagne de Reims	champagne	Reims
+r_lieu>origine	saumon d'Islande	saumon	Islande
+r_lieu>origine	granite du Portugal	granite	Portugal
+r_lieu>origine	cuir de Cordoue	cuir	Cordoue
+r_lieu>origine	muscade des Antilles	muscade	Antilles
+r_lieu>origine	agrumes de Sicile	agrumes	Sicile
+r_lieu>origine	thon des Maldives	thon	Maldives
+r_lieu>origine	vanille de Madagascar	vanille	Madagascar
+r_lieu>origine	cacao du Ghana	cacao	Ghana
+r_lieu>origine	émeraudes de Colombie	émeraudes	Colombie
+r_lieu>origine	porc de Bretagne	porc	Bretagne
+r_lieu>origine	moutarde de Dijon	moutarde	Dijon
+r_lieu>origine	agave du Mexique	agave	Mexique
+r_lieu>origine	kiwi de Nouvelle-Zélande	kiwi	Nouvelle-Zélande
+r_lieu>origine	thon de Tahiti	thon	Tahiti
+r_lieu>origine	cerises de Montmorency	cerises	Montmorency
+r_lieu>origine	lavande de Provence	lavande	Provence
+r_lieu>origine	châtaignes d'Ardèche	châtaignes	Ardèche
+r_lieu>origine	bananes des Canaries	bananes	Canaries
+r_lieu>origine	épinards de Hollande	épinards	Hollande
+r_lieu>origine	mangues d'Inde	mangues	Inde
+r_lieu>origine	cerf du Canada	cerf	Canada
+r_lieu>origine	truffes du Périgord	truffes	Périgord
+r_lieu>origine	kiwis de Corse	kiwis	Corse
+r_lieu>origine	citron de Menton	citron	Menton
+r_lieu>origine	asperges des Landes	asperges	Landes
+r_lieu>origine	grenade d'Iran	grenade	Iran
+r_lieu>origine	cerises de Burlat	cerises	Burlat
+r_lieu>origine	melon de Cavaillon	melon	Cavaillon
+r_lieu>origine	pommes de Normandie	pommes	Normandie
+r_lieu>origine	abricots de Provence	abricots	Provence
+r_lieu>origine	figues de Turquie	figues	Turquie
+r_lieu>origine	raisins de Champagne	raisins	Champagne
+r_lieu>origine	oignons de Roscoff	oignons	Roscoff
+r_lieu>origine	cerises de Bigarreau	cerises	Bigarreau
+r_lieu>origine	champignons des bois	champignons	bois
+r_lieu>origine	pommes de terre de Bretagne	pommes de terre	Bretagne
+r_lieu>origine	carottes de Guérande	carottes	Guérande
+r_lieu>origine	myrtilles des Vosges	myrtilles	Vosges
+r_lieu>origine	framboises d'Ardèche	framboises	Ardèche
+r_lieu>origine	foie gras du Périgord	foie gras	Périgord
+r_lieu>origine	céramique du Portugal	céramique	Portugal
+r_lieu>origine	vin du Chili	vin	Chili
+r_lieu>origine	fromage de Camembert	fromage	Camembert
+r_lieu>origine	thé de Taïwan	thé	Taïwan
+r_lieu>origine	café de Colombie	café	Colombie
+r_lieu>origine	riz de Thaïlande	riz	Thaïlande
+r_lieu>origine	chocolat de Suisse	chocolat	Suisse
+r_lieu>origine	fromage de Savoie	fromage	Savoie
+r_lieu>origine	porcelaine de Chine	porcelaine	Chine
+r_lieu>origine	papier du Japon	papier	Japon
+r_lieu>origine	soie de Chine	soie	Chine
+r_lieu>origine	verre de Murano	verre	Murano
+r_lieu>origine	cuir d'Italie	cuir	Italie
+r_lieu>origine	roche d'Inde	roche	Inde
+r_lieu>origine	papier d'Indonésie	papier	Indonésie
+r_lieu>origine	safran d'Espagne	safran	Espagne
+r_lieu>origine	thé d'Inde	thé	Inde
+r_lieu>origine	café du Vietnam	café	Vietnam
+r_lieu>origine	riz d'Indonésie	riz	Indonésie
+r_lieu>origine	chocolat d'Équateur	chocolat	Équateur
+r_lieu>origine	fromage de Gruyère	fromage	Gruyère
+r_lieu>origine	porcelaine de Thaïlande	porcelaine	Thaïlande
+r_lieu>origine	soie d'Inde	soie	Inde
+r_lieu>origine	piment d'Espelette	piment	Espelette
+r_lieu>origine	huile d’argan du Maroc	huile d’argan	Maroc
+r_lieu>origine	saumon de Norvège	saumon	Norvège
+r_lieu>origine	spiruline du Tchad	spiruline	Tchad
+r_social_tie	avocat de la défense	avocat	défense
+r_social_tie	médecin de famille	médecin	famille
+r_social_tie	chef du groupe	chef	groupe
+r_social_tie	président de l'association	président	association
+r_social_tie	directeur de l'école	directeur	école
+r_social_tie	entraîneur de l'équipe	entraîneur	équipe
+r_social_tie	professeur des étudiants	professeur	étudiants
+r_social_tie	tuteur de l'enfant	tuteur	enfant
+r_social_tie	conseiller du ministre	conseiller	ministre
+r_social_tie	secrétaire du directeur	secrétaire	directeur
+r_social_tie	ami de Pierre	ami	Pierre
+r_social_tie	collègue de Marie	collègue	Marie
+r_social_tie	voisin du quartier	voisin	quartier
+r_social_tie	employé de l'entreprise	employé	entreprise
+r_social_tie	représentant des salariés	représentant	salariés
+r_social_tie	capitaine de l'équipe	capitaine	équipe
+r_social_tie	délégué de classe	délégué	classe
+r_social_tie	maire de la ville	maire	ville
+r_social_tie	gardien de l'immeuble	gardien	immeuble
+r_social_tie	chef de la tribu	chef	tribu
+r_social_tie	entraîneur du joueur	entraîneur	joueur
+r_social_tie	mentor de l'apprenti	mentor	apprenti
+r_social_tie	professeur de musique	professeur	musique
+r_social_tie	intervenant de l'association	intervenant	association
+r_social_tie	trésorier de l'association	trésorier	association
+r_social_tie	vice-président de l'association	vice-président	association
+r_social_tie	secrétaire du maire	secrétaire	maire
+r_social_tie	conseiller du directeur	conseiller	directeur
+r_social_tie	responsable du service	responsable	service
+r_social_tie	mère de l’enfant	mère	enfant
+r_social_tie	adjoint du maire	adjoint	maire
+r_social_tie	père de la famille	père	famille
+r_social_tie	ami d'enfance	ami	enfance
+r_social_tie	camarade de travail	camarade	travail
+r_social_tie	coach de sport	coach	sport
+r_social_tie	porte-parole du gouvernement	porte-parole	gouvernement
+r_social_tie	coach de l’équipe	coach	équipe
+r_social_tie	chef de projet	chef	projet
+r_social_tie	partenaire d'affaires	partenaire	affaires
+r_social_tie	mentor de l'artiste	mentor	artiste
+r_social_tie	mentor de l’étudiant	mentor	étudiant
+r_social_tie	protecteur du peuple	protecteur	peuple
+r_social_tie	gardien du musée	gardien	musée
+r_social_tie	conseiller du roi	conseiller	roi
+r_social_tie	assistant du maire	assistant	maire
+r_social_tie	assistant du directeur	assistant	directeur
+r_social_tie	assistant du professeur	assistant	professeur
+r_social_tie	avocat du client	avocat	client
+r_social_tie	ami de la famille	ami	famille
+r_social_tie	chef de la police	chef	police
+r_social_tie	conseiller du président	conseiller	président
+r_social_tie	camarade de classe	camarade	classe
+r_social_tie	collaborateur du projet	collaborateur	projet
+r_social_tie	partenaire de danse	partenaire	danse
+r_social_tie	ministre de la culture	ministre	culture
+r_social_tie	directeur des opérations	directeur	opérations
+r_social_tie	directeur des ressources humaines	directeur	ressources humaines
+r_social_tie	chef de la sécurité	chef	sécurité
+r_social_tie	coordinateur de l'événement	coordinateur	événement
+r_social_tie	coordinateur de projet	coordinateur	projet
+r_social_tie	gestionnaire de l'équipe	gestionnaire	équipe
+r_social_tie	partenaire de projet	partenaire	projet
+r_social_tie	trésorier d'une entreprise	trésorier	entreprise
+r_social_tie	inspecteur des finances	inspecteur	finances
+r_social_tie	général de l’armée	général	armée
+r_social_tie	brigadier de police	brigadier	police
+r_social_tie	ambassadeur des États-Unis	ambassadeur	États-Unis
+r_social_tie	membre du comité	membre	comité
+r_social_tie	directeur du festival	directeur	festival
+r_social_tie	professeur de sport	professeur	sport
+r_social_tie	entraîneur de basketball	entraîneur	basketball
+r_social_tie	manageur de l'écrivain	manageur	écrivain
+r_social_tie	ambassadeur de France	ambassadeur	France
+r_social_tie	diplomate de carrière	diplomate	carrière
+r_social_tie	consultant du manageur	consultant	manageur
+r_social_tie	porte-drapeau du club	porte-drapeau	club
+r_social_tie	rédacteur du journal	rédacteur	journal
+r_social_tie	journaliste de télévision	journaliste	télévision
+r_social_tie	éditeur du magazine	éditeur	magazine
+r_social_tie	acteur de la troupe	acteur	troupe
+r_social_tie	chanteur du groupe	chanteur	groupe
+r_social_tie	danseur de la compagnie	danseur	compagnie
+r_social_tie	chorégraphe du clip	chorégraphe	clip
+r_social_tie	metteur en scène de la pièce	metteur en scène	pièce
+r_social_tie	scénariste du film	scénariste	film
+r_social_tie	producteur de la série	producteur	série
+r_social_tie	réalisateur du documentaire	réalisateur	documentaire
+r_social_tie	client de l'avocat	client	avocat
+r_social_tie	patient du médecin	patient	médecin
+r_social_tie	élève du professeur	élève	professeur
+r_social_tie	employé du directeur	employé	directeur
+r_social_tie	membre de l'équipe	membre	équipe
+r_social_tie	citoyen du pays	citoyen	pays
+r_social_tie	professeur de danse	professeur	danse
+r_social_tie	entraîneur de football	entraîneur	football
+r_social_tie	mentor de l'athlète	mentor	athlète
+r_social_tie	mentor de l'équipe	mentor	équipe
+r_social_tie	cuisinier du restaurant	cuisinier	restaurant
+r_social_tie	serveur du café	serveur	café
+r_social_tie	tuteur de l’étudiant	tuteur	étudiant
+r_holo	coque du bateau	coque	bateau
+r_holo	aile de l'avion	aile	avion
+r_holo	toit de la maison	toit	maison
+r_holo	manche du couteau	manche	couteau
+r_holo	écran de l'ordinateur	écran	ordinateur
+r_holo	moteur de la voiture	moteur	voiture
+r_holo	page du livre	page	livre
+r_holo	branche de l'arbre	branche	arbre
+r_holo	pétale de la rose	pétale	rose
+r_holo	roue du vélo	roue	vélo
+r_holo	touche du piano	touche	piano
+r_holo	lame de l'épée	lame	épée
+r_holo	voile du navire	voile	navire
+r_holo	porte de l'armoire	porte	armoire
+r_holo	poignée du tiroir	poignée	tiroir
+r_holo	pédale du vélo	pédale	vélo
+r_holo	volant de la voiture	volant	voiture
+r_holo	chapitre du livre	chapitre	livre
+r_holo	scène du film	scène	film
+r_holo	étage du bâtiment	étage	bâtiment
+r_holo	fenêtre de la maison	fenêtre	maison
+r_holo	batterie de la voiture	batterie	voiture
+r_holo	carte mère de l'ordinateur	carte mère	ordinateur
+r_holo	couvercle de la boîte	couvercle	boîte
+r_holo	antenne de la télévision	antenne	télévision
+r_holo	miroir de la salle de bain	miroir	salle de bain
+r_holo	bouton de la télécommande	bouton	télécommande
+r_holo	clavier de l'ordinateur	clavier	ordinateur
+r_holo	écran du smartphone	écran	smartphone
+r_holo	haut-parleur de la radio	haut-parleur	radio
+r_holo	planète du système solaire	planète	système solaire
+r_holo	fleur du jardin	fleur	jardin
+r_holo	feuille de l'arbre	feuille	arbre
+r_holo	racine de la plante	racine	plante
+r_holo	grappe de raisin	grappe	raisin
+r_holo	branche de l'arbuste	branche	arbuste
+r_holo	bulbe de l'oignon	bulbe	oignon
+r_holo	graine de la fleur	graine	fleur
+r_holo	fruit de l'arbre	fruit	arbre
+r_holo	écorce de l'arbre	écorce	arbre
+r_holo	branche de la vigne	branche	vigne
+r_holo	touche du clavier	touche	clavier
+r_holo	clé du piano	clé	piano
+r_holo	corde de la guitare	corde	guitare
+r_holo	frette de la guitare	frette	guitare
+r_holo	goudron de la route	goudron	route
+r_holo	semelle de la chaussure	semelle	chaussure
+r_holo	lame de la scie	lame	scie
+r_holo	poche du pantalon	poche	pantalon
+r_holo	cadre du tableau	cadre	tableau
+r_holo	poignée de la porte	poignée	porte
+r_holo	colonne du bâtiment	colonne	bâtiment
+r_holo	cheminée de la maison	cheminée	maison
+r_holo	colonne de l'alambic	colonne	alambic
+r_holo	roue de la tracteur	roue	tracteur
+r_holo	antenne du satellite	antenne	satellite
+r_holo	batterie du téléphone	batterie	téléphone
+r_holo	écran de la télévision	écran	télévision
+r_holo	ampoule de la lampe	ampoule	lampe
+r_holo	pied de la chaise	pied	chaise
+r_holo	bras du fauteuil	bras	fauteuil
+r_holo	sangle du sac	sangle	sac
+r_holo	couvercle de la casserole	couvercle	casserole
+r_holo	anse de la tasse	anse	tasse
+r_holo	lentille du microscope	lentille	microscope
+r_holo	objectif de l'appareil photo	objectif	appareil photo
+r_holo	diaphragme de l'appareil photo	diaphragme	appareil photo
+r_holo	batterie de la montre	batterie	montre
+r_holo	cadran de la montre	cadran	montre
+r_holo	bracelet de la montre	bracelet	montre
+r_holo	aiguille de la montre	aiguille	montre
+r_holo	main de Gabrielle	main	Gabrielle
+r_holo	yeux de Paul	yeux	Paul
+r_holo	bouche de Sophie	bouche	Sophie
+r_holo	oreilles de Thomas	oreilles	Thomas
+r_holo	cheveux de Laura	cheveux	Laura
+r_holo	transistor du processeur	transistor	processeur
+r_holo	circuit du processeur	circuit	processeur
+r_holo	proton de l'atome	proton	atome
+r_holo	neutron de l'atome	neutron	atome
+r_holo	electron de l'atome	electron	atome
+r_holo	manche du t-shirt	manche	t-shirt
+r_holo	colonne du temple	colonne	temple
+r_holo	pignon du vélo	pignon	vélo
+r_holo	dent de la scie	dent	scie
+r_holo	pédale du piano	pédale	piano
+r_holo	corde du violon	corde	violon
+r_holo	peau de l'orange	peau	orange
+r_holo	chair de la tomate	chair	tomate
+r_holo	pupille de l'œil	pupille	œil
+r_holo	iris de l'œil	iris	œil
+r_holo	cornée de l'œil	cornée	œil
+r_holo	cristallin de l'œil	cristallin	œil
+r_holo	sabot de la vache	sabot	vache
+r_holo	plume de l'oiseau	plume	oiseau
+r_holo	écaille du poisson	écaille	poisson
+r_holo	aile de l'oiseau	aile	oiseau
+r_holo	griffe du lion	griffe	lion
+r_holo	branchie du poisson	branchie	poisson
+r_holo	bois de cerf	bois	cerf
+r_quantificateur	brin d'herbe	brin	herbe
+r_quantificateur	goutte d'eau	goutte	eau
+r_quantificateur	grain de sable	grain	sable
+r_quantificateur	pincée de sel	pincée	sel
+r_quantificateur	tranche de pain	tranche	pain
+r_quantificateur	verre de vin	verre	vin
+r_quantificateur	cuillère de sucre	cuillère	sucre
+r_quantificateur	morceau de fromage	morceau	fromage
+r_quantificateur	bouteille de lait	bouteille	lait
+r_quantificateur	kilo de pommes	kilo	pommes
+r_quantificateur	litre d'essence	litre	essence
+r_quantificateur	mètre de tissu	mètre	tissu
+r_quantificateur	tas de pierres	tas	pierres
+r_quantificateur	poignée de riz	poignée	riz
+r_quantificateur	nuage de poussière	nuage	poussière
+r_quantificateur	paquet de cigarettes	paquet	cigarettes
+r_quantificateur	rangée d'arbres	rangée	arbres
+r_quantificateur	pile de documents	pile	documents
+r_quantificateur	série de questions	série	questions
+r_quantificateur	ensemble de règles	ensemble	règles
+r_quantificateur	bol de soupe	bol	soupe
+r_quantificateur	sac de farine	sac	farine
+r_quantificateur	caisse de livres	caisse	livres
+r_quantificateur	poignée de sable	poignée	sable
+r_quantificateur	morceau de bois	morceau	bois
+r_quantificateur	cube de glace	cube	glace
+r_quantificateur	gramme d’or	gramme	or
+r_quantificateur	litre d’eau	litre	eau
+r_quantificateur	flacon de parfum	flacon	parfum
+r_quantificateur	paquet de farine	paquet	farine
+r_quantificateur	bouquet de fleurs	bouquet	fleurs
+r_quantificateur	groupe d’amis	groupe	amis
+r_quantificateur	troupeau de moutons	troupeau	moutons
+r_quantificateur	nuée d’oiseaux	nuée	oiseaux
+r_quantificateur	foule de touristes	foule	touristes
+r_quantificateur	série de romans	série	romans
+r_quantificateur	collection de timbres	collection	timbres
+r_quantificateur	pile de vêtements	pile	vêtements
+r_quantificateur	tas de feuilles	tas	feuilles
+r_quantificateur	rangée de sièges	rangée	sièges
+r_quantificateur	verre d’eau	verre	eau
+r_quantificateur	tasse de café	tasse	café
+r_quantificateur	bol de céréales	bol	céréales
+r_quantificateur	assiette de pâtes	assiette	pâtes
+r_quantificateur	pot de confiture	pot	confiture
+r_quantificateur	boîte de biscuits	boîte	biscuits
+r_quantificateur	barquette de fraises	barquette	fraises
+r_quantificateur	bouteille de jus	bouteille	jus
+r_quantificateur	sac de pommes de terre	sac	pommes de terre
+r_quantificateur	paquet de pâtes	paquet	pâtes
+r_quantificateur	kilo de riz	kilo	riz
+r_quantificateur	tonne de charbon	tonne	charbon
+r_quantificateur	gramme de sucre	gramme	sucre
+r_quantificateur	centilitre d’huile	centilitre	huile
+r_quantificateur	mètre de câble	mètre	câble
+r_quantificateur	litre de lait	litre	lait
+r_quantificateur	hectare de terrain	hectare	terrain
+r_quantificateur	paquet de farine	paquet	farine
+r_quantificateur	caisse de bouteilles	caisse	bouteilles
+r_quantificateur	tonneau de vin	tonneau	vin
+r_quantificateur	poignée de clous	poignée	clous
+r_quantificateur	brassée de linge	brassée	linge
+r_quantificateur	pelletée de neige	pelletée	neige
+r_quantificateur	flaque d’eau	flaque	eau
+r_quantificateur	nuage de fumée	nuage	fumée
+r_quantificateur	rideau de pluie	rideau	pluie
+r_quantificateur	souffle de vent	souffle	vent
+r_quantificateur	rayon de soleil	rayon	soleil
+r_quantificateur	voile de brume	voile	brume
+r_quantificateur	couche de poussière	couche	poussière
+r_quantificateur	série d’exercices	série	exercices
+r_quantificateur	multitude de détails	multitude	détails
+r_quantificateur	succession d’événements	succession	événements
+r_quantificateur	flot de paroles	flot	paroles
+r_quantificateur	torrent d’émotions	torrent	émotions
+r_quantificateur	amas de données	amas	données
+r_quantificateur	éventail de possibilités	éventail	possibilités
+r_quantificateur	chaîne de montagnes	chaîne	montagnes
+r_quantificateur	pincée de paprika	pincée	paprika
+r_quantificateur	kilo de homard	kilo	homard
+r_quantificateur	filet d’huile	filet	huile
+r_quantificateur	cagette de citron	cagette	citron
+r_quantificateur	pincée de poivre	pincée	poivre
+r_quantificateur	goutte de sang	goutte	sang
+r_quantificateur	morceau de gâteau	morceau	gâteau
+r_quantificateur	tranche de fromage	tranche	fromage
+r_quantificateur	cuillerée de miel	cuillerée	miel
+r_quantificateur	verre de jus	verre	jus
+r_quantificateur	bol de riz	bol	riz
+r_quantificateur	assiette de crudités	assiette	crudités
+r_quantificateur	poignée de feuilles	poignée	feuilles
+r_quantificateur	bouquet de roses	bouquet	roses
+r_quantificateur	gerbe de blé	gerbe	blé
+r_quantificateur	brassée de fleurs	brassée	fleurs
+r_quantificateur	buisson de ronces	buisson	ronces
+r_quantificateur	forêt de pins	forêt	pins
+r_quantificateur	champ de tournesols	champ	tournesols
+r_quantificateur	boite d’aiguilles	boite	aiguilles
+r_quantificateur	rideau de branches	rideau	branches
+r_quantificateur	amas de rochers	amas	rochers
+
+r_objet>matière	cuillère de bois	cuillère	bois
+r_objet>matière	statue de bronze	statue	bronze
+r_objet>matière	bijou d'or	bijou	or
+r_objet>matière	vase de cristal	vase	cristal
+r_objet>matière	table de marbre	table	marbre
+r_objet>matière	pull de laine	pull	laine
+r_objet>matière	sac de cuir	sac	cuir
+r_objet>matière	maison de pierre	maison	pierre
+r_objet>matière	pont de fer	pont	fer
+r_objet>matière	couronne de fleurs	couronne	fleurs
+r_objet>matière	château de sable	château	sable
+r_objet>matière	mur de briques	mur	briques
+r_objet>matière	collier de perles	collier	perles
+r_objet>matière	robe de soie	robe	soie
+r_objet>matière	chaise de plastique	chaise	plastique
+r_objet>matière	escalier de bois	escalier	bois
+r_objet>matière	tuyau de cuivre	tuyau	cuivre
+r_objet>matière	barrière de métal	barrière	métal
+r_objet>matière	coussin de plumes	coussin	plumes
+r_objet>matière	pneu de caoutchouc	pneu	caoutchouc
+r_objet>matière	bol de porcelaine	bol	porcelaine
+r_objet>matière	verre de cristal	verre	cristal
+r_objet>matière	assiette de céramique	assiette	céramique
+r_objet>matière	couteau d’acier	couteau	acier
+r_objet>matière	cuillère d’argent	cuillère	argent
+r_objet>matière	porte de bois	porte	bois
+r_objet>matière	gobelet de plastique	gobelet	plastique
+r_objet>matière	échelle d’aluminium	échelle	aluminium
+r_objet>matière	casque de métal	casque	métal
+r_objet>matière	lampe de verre	lampe	verre
+r_objet>matière	rideau de lin	rideau	lin
+r_objet>matière	nappe de coton	nappe	coton
+r_objet>matière	tapis de laine	tapis	laine
+r_objet>matière	chaussures de cuir	chaussures	cuir
+r_objet>matière	ceinture de cuir	ceinture	cuir
+r_objet>matière	sac de toile	sac	toile
+r_objet>matière	tente de tissu	tente	tissu
+r_objet>matière	chemise de soie	chemise	soie
+r_objet>matière	manteau de fourrure	manteau	fourrure
+r_objet>matière	couverture de coton	couverture	coton
+r_objet>matière	armure de fer	armure	fer
+r_objet>matière	sabre d’acier	sabre	acier
+r_objet>matière	bouclier de bois	bouclier	bois
+r_objet>matière	pièce d’argile	pièce	argile
+r_objet>matière	amphore de terre cuite	amphore	terre cuite
+r_objet>matière	statue de marbre	statue	marbre
+r_objet>matière	porte de métal	porte	métal
+r_objet>matière	radiateur de fonte	radiateur	fonte
+r_objet>matière	tube de PVC	tube	PVC
+r_objet>matière	câble de cuivre	câble	cuivre
+r_objet>matière	barre de fer	barre	fer
+r_objet>matière	grille d’acier	grille	acier
+r_objet>matière	cage de métal	cage	métal
+r_objet>matière	lit de bois	lit	bois
+r_objet>matière	armoire de chêne	armoire	chêne
+r_objet>matière	table de verre	table	verre
+r_objet>matière	cadre de bois	cadre	bois
+r_objet>matière	bureau de métal	bureau	métal
+r_objet>matière	clé de bronze	clé	bronze
+r_objet>matière	anneau d’or	anneau	or
+r_objet>matière	lunettes de plastique	lunettes	plastique
+r_objet>matière	boîte en carton	boîte	carton
+r_objet>matière	emballage de papier	emballage	papier
+r_objet>matière	panier d’osier	panier	osier
+r_objet>matière	chaise de rotin	chaise	rotin
+r_objet>matière	toit de tuiles	toit	tuiles
+r_objet>matière	cheminée de briques	cheminée	briques
+r_objet>matière	mur de béton	mur	béton
+r_objet>matière	souche de bois	souche	bois
+r_objet>matière	planche de pin	planche	pin
+r_objet>matière	crayon de graphite	crayon	graphite
+r_objet>matière	stylo de plastique	stylo	plastique
+r_objet>matière	livre de papier	livre	papier
+r_objet>matière	jouet de bois	jouet	bois
+r_objet>matière	marteau de métal	marteau	métal
+r_objet>matière	pioche de fer	pioche	fer
+r_objet>matière	seau de plastique	seau	plastique
+r_objet>matière	bouteille de verre	bouteille	verre
+r_objet>matière	flûte de bambou	flûte	bambou
+r_objet>matière	trompette de cuivre	trompette	cuivre
+r_objet>matière	violon de bois	violon	bois
+r_objet>matière	masque de latex	masque	latex
+r_objet>matière	tapis de jute	tapis	jute
+r_objet>matière	pull d’acrylique	pull	acrylique
+r_objet>matière	porte de contreplaqué	porte	contreplaqué
+r_objet>matière	voiture de métal	voiture	métal
+r_objet>matière	casque de carbone	casque	carbone
+r_objet>matière	bateau de bois	bateau	bois
+r_objet>matière	pagaie de fibre de carbone	pagaie	fibre de carbone
+r_objet>matière	rame de bois	rame	bois
+r_objet>matière	échafaudage de métal	échafaudage	métal
+r_objet>matière	boîte de fer-blanc	boîte	fer-blanc
+r_objet>matière	éventail de papier	éventail	papier
+r_objet>matière	lustre de cristal	lustre	cristal
+r_objet>matière	pierre de granit	pierre	granit
+r_objet>matière	statue d’argile	statue	argile
+r_objet>matière	lanterne de papier	lanterne	papier
+r_objet>matière	ficelle de chanvre	ficelle	chanvre
+r_objet>matière	corde de nylon	corde	nylon
+r_depict	portrait de la reine	portrait	reine
+r_depict	photo de famille	photo	famille
+r_depict	tableau de paysage	tableau	paysage
+r_depict	sculpture de cheval	sculpture	cheval
+r_depict	dessin d'enfant	dessin	enfant
+r_depict	peinture de fleurs	peinture	fleurs
+r_depict	gravure de la cathédrale	gravure	cathédrale
+r_depict	croquis du bâtiment	croquis	bâtiment
+r_depict	schéma du circuit	schéma	circuit
+r_depict	carte de France	carte	France
+r_depict	plan de la ville	plan	ville
+r_depict	maquette du projet	maquette	projet
+r_depict	statue de la liberté	statue	liberté
+r_depict	fresque de la bataille	fresque	bataille
+r_depict	esquisse du monument	esquisse	monument
+r_depict	image du produit	image	produit
+r_depict	reproduction du tableau	reproduction	tableau
+r_depict	représentation du système	représentation	système
+r_depict	illustration du conte	illustration	conte
+r_depict	caricature du président	caricature	président
+r_depict	portrait du roi	portrait	roi
+r_depict	portrait du guerrier	portrait	guerrier
+r_depict	portrait du musicien	portrait	musicien
+r_depict	portrait de l’acteur	portrait	acteur
+r_depict	portrait du chef	portrait	chef
+r_depict	photo du chien	photo	chien
+r_depict	photo du chat	photo	chat
+r_depict	photo du groupe	photo	groupe
+r_depict	photo du public	photo	public
+r_depict	photo du paysage	photo	paysage
+r_depict	tableau du port	tableau	port
+r_depict	tableau de la forêt	tableau	forêt
+r_depict	tableau de la bataille	tableau	bataille
+r_depict	tableau de la mer	tableau	mer
+r_depict	tableau du village	tableau	village
+r_depict	sculpture de lion	sculpture	lion
+r_depict	sculpture d’aigle	sculpture	aigle
+r_depict	sculpture du héros	sculpture	héros
+r_depict	sculpture du danseur	sculpture	danseur
+r_depict	sculpture du pêcheur	sculpture	pêcheur
+r_depict	dessin de dragon	dessin	dragon
+r_depict	dessin de maison	dessin	maison
+r_depict	dessin de robot	dessin	robot
+r_depict	dessin de voiture	dessin	voiture
+r_depict	dessin de montagne	dessin	montagne
+r_depict	peinture du ciel	peinture	ciel
+r_depict	peinture du jardin	peinture	jardin
+r_depict	peinture du château	peinture	château
+r_depict	peinture du village	peinture	village
+r_depict	peinture du lac	peinture	lac
+r_depict	gravure du temple	gravure	temple
+r_depict	gravure du navire	gravure	navire
+r_depict	gravure du pont	gravure	pont
+r_depict	gravure du marché	gravure	marché
+r_depict	gravure du moulin	gravure	moulin
+r_depict	croquis du visage	croquis	visage
+r_depict	croquis de la scène	croquis	scène
+r_depict	croquis du jardin	croquis	jardin
+r_depict	croquis du château	croquis	château
+r_depict	croquis du quartier	croquis	quartier
+r_depict	schéma de la machine	schéma	machine
+r_depict	schéma de l’installation	schéma	installation
+r_depict	schéma du moteur	schéma	moteur
+r_depict	schéma du réseau	schéma	réseau
+r_depict	schéma du dispositif	schéma	dispositif
+r_depict	carte du monde	carte	monde
+r_depict	carte de la région	carte	région
+r_depict	carte du district	carte	district
+r_depict	carte des étoiles	carte	étoiles
+r_depict	carte du désert	carte	désert
+r_depict	plan du musée	plan	musée
+r_depict	plan de la maison	plan	maison
+r_depict	plan du bâtiment	plan	bâtiment
+r_depict	plan du parcours	plan	parcours
+r_depict	plan du site	plan	site
+r_depict	maquette de l’avion	maquette	avion
+r_depict	maquette du stade	maquette	stade
+r_depict	maquette du parc	maquette	parc
+r_depict	maquette du centre-ville	maquette	centre-ville
+r_depict	maquette du pont	maquette	pont
+r_depict	fresque du marché	fresque	marché
+r_depict	fresque du fleuve	fresque	fleuve
+r_depict	fresque du mur	fresque	mur
+r_depict	fresque de la ville	fresque	ville
+r_depict	fresque du quartier	fresque	quartier
+r_depict	esquisse du costume	esquisse	costume
+r_depict	esquisse du personnage	esquisse	personnage
+r_depict	esquisse du bateau	esquisse	bateau
+r_depict	esquisse du décor	esquisse	décor
+r_depict	esquisse de la scène	esquisse	scène
+r_depict	image du véhicule	image	véhicule
+r_depict	image du bâtiment	image	bâtiment
+r_depict	image du dispositif	image	dispositif
+r_depict	image du prototype	image	prototype
+r_depict	image de la structure	image	structure
+r_depict	illustration du mythe	illustration	mythe
+r_depict	illustration du roman	illustration	roman
+r_depict	illustration du personnage	illustration	personnage
+r_depict	illustration de l’animal	illustration	animal
+r_depict	illustration du symbole	illustration	symbole
+r_depict	caricature du roi	caricature	roi
+r_depict	caricature du chef	caricature	chef
+r_depict	caricature du ministre	caricature	ministre
+r_depict	caricature du politicien	caricature	politicien
+r_depict	caricature de l’artiste	caricature	artiste
+r_lieu	tour de Pise	tour	Pise
+r_lieu	bataille de Waterloo	bataille	Waterloo
+r_lieu	musée de Paris	musée	Paris
+r_lieu	gare de Lyon	gare	Lyon
+r_lieu	pont d'Avignon	pont	Avignon
+r_lieu	château de Versailles	château	Versailles
+r_lieu	plage de Nice	plage	Nice
+r_lieu	forêt des Ardennes	forêt	Ardennes
+r_lieu	désert du Sahara	désert	Sahara
+r_lieu	restaurant du coin	restaurant	coin
+r_lieu	boulangerie du quartier	boulangerie	quartier
+r_lieu	marché de Noël	marché	Noël
+r_lieu	festival de Cannes	festival	Cannes
+r_lieu	université de Montpellier	université	Montpellier
+r_lieu	aéroport de Roissy	aéroport	Roissy
+r_lieu	hôpital de la ville	hôpital	ville
+r_lieu	bibliothèque du campus	bibliothèque	campus
+r_lieu	stade de France	stade	France
+r_lieu	théâtre de l'Odéon	théâtre	Odéon
+r_lieu	cathédrale de Reims	cathédrale	Reims
+r_lieu	jardin du Luxembourg	jardin	Luxembourg
+r_lieu	place de la Concorde	place	Concorde
+r_lieu	rue de Rivoli	rue	Rivoli
+r_lieu	parc de la Tête-d’Or	parc	Tête-d’Or
+r_lieu	église de Saint-Malo	église	Saint-Malo
+r_lieu	port de Marseille	port	Marseille
+r_lieu	station de Châtelet	station	Châtelet
+r_lieu	quartier de Montmartre	quartier	Montmartre
+r_lieu	avenue des Champs-Élysées	avenue	Champs-Élysées
+r_lieu	hôtel de Londres	hôtel	Londres
+r_lieu	temple de Kyoto	temple	Kyoto
+r_lieu	monument de Berlin	monument	Berlin
+r_lieu	forteresse de Dubrovnik	forteresse	Dubrovnik
+r_lieu	université d’Oxford	université	Oxford
+r_lieu	école de Tokyo	école	Tokyo
+r_lieu	vallée de la Loire	vallée	Loire
+r_lieu	montagne des Alpes	montagne	Alpes
+r_lieu	lac de Genève	lac	Genève
+r_lieu	rivière de l’Amazone	rivière	Amazone
+r_lieu	île de Madère	île	Madère
+r_lieu	continent de l’Asie	continent	Asie
+r_lieu	mer Méditerranée	mer	Méditerranée
+r_lieu	océan Atlantique	océan	Atlantique
+r_lieu	péninsule Ibérique	péninsule	Ibérique
+r_lieu	canyon du Colorado	canyon	Colorado
+r_lieu	volcan de l’Etna	volcan	Etna
+r_lieu	grotte de Lascaux	grotte	Lascaux
+r_lieu	cascade du Niagara	cascade	Niagara
+r_lieu	chutes d’Iguazú	chutes	Iguazú
+r_lieu	jungle de Bornéo	jungle	Bornéo
+r_lieu	plaine du Serengeti	plaine	Serengeti
+r_lieu	savane africaine	savane	Africane
+r_lieu	colline de Fourvière	colline	Fourvière
+r_lieu	ruines de Pompéi	ruines	Pompéi
+r_lieu	thermes de Caracalla	thermes	Caracalla
+r_lieu	basilique de Saint-Marc	basilique	Saint-Marc
+r_lieu	marché de Marrakech	marché	Marrakech
+r_lieu	souk de Tunis	souk	Tunis
+r_lieu	quartier de Harlem	quartier	Harlem
+r_lieu	harbor de Sydney	harbor	Sydney
+r_lieu	frontière du Canada	frontière	Canada
+r_lieu	réserve du Yellowstone	réserve	Yellowstone
+r_lieu	station des Alpes	station	Alpes
+r_lieu	campagne de Toscane	campagne	Toscane
+r_lieu	centre de Bruxelles	centre	Bruxelles
+r_lieu	bourg de Saint-Émilion	bourg	Saint-Émilion
+r_lieu	commune de Chartres	commune	Chartres
+r_lieu	village de Gordes	village	Gordes
+r_lieu	hameau de La Clusaz	hameau	La Clusaz
+r_lieu	route de Bretagne	route	Bretagne
+r_lieu	autoroute du Sud	autoroute	Sud
+r_lieu	district de Manhattan	district	Manhattan
+r_lieu	province du Québec	province	Québec
+r_lieu	état du Nevada	état	Nevada
+r_lieu	région du Piémont	région	Piémont
+r_lieu	territoire du Yukon	territoire	Yukon
+r_lieu	parc de Yellowstone	parc	Yellowstone
+r_lieu	domaine de Chambord	domaine	Chambord
+r_lieu	sanctuaire de Fushimi	sanctuaire	Fushimi
+r_lieu	canal de Panama	canal	Panama
+r_lieu	champ de bataille de Verdun	champ	Verdun
+r_lieu	bay de San Francisco	bay	San Francisco
+r_lieu	plaine de Gizeh	plaine	Gizeh
+r_lieu	place du Capitole	place	Capitole
+r_lieu	jardin de Boboli	jardin	Boboli
+r_lieu	rivage de Bretagne	rivage	Bretagne
+r_lieu	rade de Toulon	rade	Toulon
+r_lieu	abîme de Padirac	abîme	Padirac
+r_lieu	musée du Prado	musée	Prado
+r_lieu	chapelle Sixtine	chapelle	Sixtine
+r_lieu	cathédrale de Milan	cathédrale	Milan
+r_lieu	cinéma du centre	cinéma	centre
+r_lieu	bibliothèque de Turin	bibliothèque	Turin
+r_lieu	observatoire de Meudon	observatoire	Meudon
+r_lieu	théâtre de Marseille	théâtre	Marseille
+r_lieu	cirque de Gavarnie	cirque	Gavarnie
+r_lieu	département de l’Ain	département	Ain
+r_lieu	mairie de Toulouse	mairie	Toulouse
+r_processus_agent	travail de l'ouvrier	travail	ouvrier
+r_processus_agent	chant de l'oiseau	chant	oiseau
+r_processus_agent	course du cheval	course	cheval
+r_processus_agent	discours du président	discours	président
+r_processus_agent	décision du juge	décision	juge
+r_processus_agent	création de l'artiste	création	artiste
+r_processus_agent	recherche du scientifique	recherche	scientifique
+r_processus_agent	performance de l'acteur	performance	acteur
+r_processus_agent	intervention du médecin	intervention	médecin
+r_processus_agent	témoignage du suspect	témoignage	suspect
+r_processus_agent	analyse de l'expert	analyse	expert
+r_processus_agent	rapport du comptable	rapport	comptable
+r_processus_agent	enseignement du professeur	enseignement	professeur
+r_processus_agent	construction du maçon	construction	maçon
+r_processus_agent	cuisine du chef	cuisine	chef
+r_processus_agent	plaidoirie de l'avocat	plaidoirie	avocat
+r_processus_agent	diagnostic du médecin	diagnostic	médecin
+r_processus_agent	enquête du détective	enquête	détective
+r_processus_agent	prédiction de l'analyste	prédiction	analyste
+r_processus_agent	commentaire du journaliste	commentaire	journaliste
+r_processus_agent	récital du pianiste	récital	pianiste
+r_processus_agent	interprétation du chanteur	interprétation	chanteur
+r_processus_agent	discours de l’orateur	discours	orateur
+r_processus_agent	sermon du prêtre	sermon	prêtre
+r_processus_agent	prière du moine	prière	moine
+r_processus_agent	manœuvre du pilote	manœuvre	pilote
+r_processus_agent	stratégie du général	stratégie	général
+r_processus_agent	attaque du guerrier	attaque	guerrier
+r_processus_agent	défense du gardien	défense	gardien
+r_processus_agent	score du joueur	score	joueur
+r_processus_agent	prise du photographe	prise	photographe
+r_processus_agent	capture du chasseur	capture	chasseur
+r_processus_agent	traque du loup	traque	loup
+r_processus_agent	poème du barde	poème	barde
+r_processus_agent	étude du sociologue	étude	sociologue
+r_processus_agent	mesure du technicien	mesure	technicien
+r_processus_agent	contrôle de l’ingénieur	contrôle	ingénieur
+r_processus_agent	inspection de l’agent	inspection	agent
+r_processus_agent	calcul du mathématicien	calcul	mathématicien
+r_processus_agent	expérience du physicien	expérience	physicien
+r_processus_agent	simulation de l’informaticien	simulation	informaticien
+r_processus_agent	programmation du développeur	programmation	développeur
+r_processus_agent	montage du monteur	montage	monteur
+r_processus_agent	réalisation du réalisateur	réalisation	réalisateur
+r_processus_agent	cadrage du caméraman	cadrage	caméraman
+r_processus_agent	réglage du technicien	réglage	technicien
+r_processus_agent	édition de l’éditeur	édition	éditeur
+r_processus_agent	publication du journaliste	publication	journaliste
+r_processus_agent	soin du vétérinaire	soin	vétérinaire
+r_processus_agent	opération du chirurgien	opération	chirurgien
+r_processus_agent	traitement du thérapeute	traitement	thérapeute
+r_processus_agent	surveillance de l’infirmière	surveillance	infirmière
+r_processus_agent	examen du dermatologue	examen	dermatologue
+r_processus_agent	consultation du spécialiste	consultation	spécialiste
+r_processus_agent	pronostic du médecin	pronostic	médecin
+r_processus_agent	rééducation du kinésithérapeute	rééducation	kinésithérapeute
+r_processus_agent	évaluation du psychologue	évaluation	psychologue
+r_processus_agent	interprétation du radiologue	interprétation	radiologue
+r_processus_agent	arrestation du policier	arrestation	policier
+r_processus_agent	poursuite de l’agent	poursuite	agent
+r_processus_agent	protection du garde	protection	garde
+r_processus_agent	condamnation du tribunal	condamnation	tribunal
+r_processus_agent	verdict du jury	verdict	jury
+r_processus_agent	négociation du diplomate	négociation	diplomate
+r_processus_agent	déclaration du ministre	déclaration	ministre
+r_processus_agent	annonce du porte-parole	annonce	porte-parole
+r_processus_agent	débat du parlementaire	débat	parlementaire
+r_processus_agent	argumentation de l’avocat	argumentation	avocat
+r_processus_agent	survol de l’hélicoptère	survol	hélicoptère
+r_processus_agent	progression de l’escorte	progression	escorte
+r_processus_agent	patrouille du soldat	patrouille	soldat
+r_processus_agent	manœuvre du sous-marin	manœuvre	sous-marin
+r_processus_agent	atterrissage du pilote	atterrissage	pilote
+r_processus_agent	amerrissage du commandant	amerrissage	commandant
+r_processus_agent	dragage du navire	dragage	navire
+r_processus_agent	propulsion de la fusée	propulsion	fusée
+r_processus_agent	largage du parachutiste	largage	parachutiste
+r_processus_agent	ascension du grimpeur	ascension	grimpeur
+r_processus_agent	plantation du jardinier	plantation	jardinier
+r_processus_agent	irrigation du fermier	irrigation	fermier
+r_processus_agent	récolte de l’agriculteur	récolte	agriculteur
+r_processus_agent	taillage du vigneron	taillage	vigneron
+r_processus_agent	pressage du meunier	pressage	meunier
+r_processus_agent	fermentation du brasseur	fermentation	brasseur
+r_processus_agent	malaxage du boulanger	malaxage	boulanger
+r_processus_agent	affinage du fromager	affinage	fromager
+r_processus_agent	séchage du tanneur	séchage	tanneur
+r_processus_agent	forge du forgeron	forge	forgeron
+r_processus_agent	nettoyage de la femme de ménage	nettoyage	femme de ménage
+r_processus_agent	balayage du concierge	balayage	concierge
+r_processus_agent	livraison du coursier	livraison	coursier
+r_processus_agent	réparation du mécanicien	réparation	mécanicien
+r_processus_agent	assemblage de l’ouvrier	assemblage	ouvrier
+r_processus_agent	démolition de l’équipe	démolition	équipe
+r_processus_agent	rénovation du peintre	rénovation	peintre
+r_processus_agent	pose du carreleur	pose	carreleur
+r_processus_agent	retrait du déménageur	retrait	déménageur
+r_processus_agent	installation de l’électricien	installation	électricien
+r_processus_patient	destruction de la ville	destruction	ville
+r_processus_patient	réparation de la voiture	réparation	voiture
+r_processus_patient	nettoyage du sol	nettoyage	sol
+r_processus_patient	ouverture de la porte	ouverture	porte
+r_processus_patient	fermeture du magasin	fermeture	magasin
+r_processus_patient	coupe du bois	coupe	bois
+r_processus_patient	lavage de la voiture	lavage	voiture
+r_processus_patient	cuisson du pain	cuisson	pain
+r_processus_patient	lecture du livre	lecture	livre
+r_processus_patient	écriture du texte	écriture	texte
+r_processus_patient	traduction du document	traduction	document
+r_processus_patient	transformation de la matière	transformation	matière
+r_processus_patient	démolition du bâtiment	démolition	bâtiment
+r_processus_patient	restauration du tableau	restauration	tableau
+r_processus_patient	entretien du jardin	entretien	jardin
+r_processus_patient	analyse du sang	analyse	sang
+r_processus_patient	examen du dossier	examen	dossier
+r_processus_patient	vérification des comptes	vérification	comptes
+r_processus_patient	correction du texte	correction	texte
+r_processus_patient	validation du projet	validation	projet
+r_processus_patient	assemblage de la machine	assemblage	machine
+r_processus_patient	polissage du métal	polissage	métal
+r_processus_patient	calibrage de l’instrument	calibrage	instrument
+r_processus_patient	réglage de l’appareil	réglage	appareil
+r_processus_patient	installation du logiciel	installation	logiciel
+r_processus_patient	test du prototype	test	prototype
+r_processus_patient	stérilisation du matériel	stérilisation	matériel
+r_processus_patient	désinfection de la surface	désinfection	surface
+r_processus_patient	réfrigération des aliments	réfrigération	aliments
+r_processus_patient	congélation de la viande	congélation	viande
+r_processus_patient	traitement de l’eau	traitement	eau
+r_processus_patient	filtration du liquide	filtration	liquide
+r_processus_patient	mélange des ingrédients	mélange	ingrédients
+r_processus_patient	pétrissage de la pâte	pétrissage	pâte
+r_processus_patient	fusion du métal	fusion	métal
+r_processus_patient	assemblage des pièces	assemblage	pièces
+r_processus_patient	tri des déchets	tri	déchets
+r_processus_patient	compactage des cartons	compactage	cartons
+r_processus_patient	emballage du produit	emballage	produit
+r_processus_patient	stockage des marchandises	stockage	marchandises
+r_processus_patient	transport des colis	transport	colis
+r_processus_patient	acheminement du courrier	acheminement	courrier
+r_processus_patient	chargement du camion	chargement	camion
+r_processus_patient	déchargement des caisses	déchargement	caisses
+r_processus_patient	ventilation de la pièce	ventilation	pièce
+r_processus_patient	aération du local	aération	local
+r_processus_patient	assainissement de l’eau	assainissement	eau
+r_processus_patient	oxygénation du bassin	oxygénation	bassin
+r_processus_patient	réparation de la clôture	réparation	clôture
+r_processus_patient	pose du carrelage	pose	carrelage
+r_processus_patient	peinture du mur	peinture	mur
+r_processus_patient	décapage du sol	décapage	sol
+r_processus_patient	brossage du tapis	brossage	tapis
+r_processus_patient	rinçage du linge	rinçage	linge
+r_processus_patient	pliage des vêtements	pliage	vêtements
+r_processus_patient	repassage des chemises	repassage	chemises
+r_processus_patient	tri du courrier	tri	courrier
+r_processus_patient	relecture du document	relecture	document
+r_processus_patient	impression du dossier	impression	dossier
+r_processus_patient	gravure du disque	gravure	disque
+r_processus_patient	numérisation du fichier	numérisation	fichier
+r_processus_patient	sauvegarde des données	sauvegarde	données
+r_processus_patient	cryptage du message	cryptage	message
+r_processus_patient	compression de l’archive	compression	archive
+r_processus_patient	amplification du signal	amplification	signal
+r_processus_patient	duplication du support	duplication	support
+r_processus_patient	étalonnage du capteur	étalonnage	capteur
+r_processus_patient	activation du système	activation	système
+r_processus_patient	désactivation des alarmes	désactivation	alarmes
+r_processus_patient	remplissage du réservoir	remplissage	réservoir
+r_processus_patient	vidange du moteur	vidange	moteur
+r_processus_patient	lubrification des pièces	lubrification	pièces
+r_processus_patient	refroidissement du moteur	refroidissement	moteur
+r_processus_patient	étanchéification du toit	étanchéification	toit
+r_processus_patient	isolation du mur	isolation	mur
+r_processus_patient	renforcement de la structure	renforcement	structure
+r_processus_patient	lissage du béton	lissage	béton
+r_processus_patient	colmatage de la fissure	colmatage	fissure
+r_processus_patient	remplacement de la vitre	remplacement	vitre
+r_processus_patient	réparation de la serrure	réparation	serrure
+r_processus_patient	nettoyage des vitres	nettoyage	vitres
+r_processus_patient	déneigement du trottoir	déneigement	trottoir
+r_processus_patient	ramassage des feuilles	ramassage	feuilles
+r_processus_patient	tonte de la pelouse	tonte	pelouse
+r_processus_patient	arrosage des plantes	arrosage	plantes
+r_processus_patient	taille de la haie	taille	haie
+r_processus_patient	fertilisation du sol	fertilisation	sol
+r_processus_patient	enrichissement du terreau	enrichissement	terreau
+r_processus_patient	désherbage du jardin	désherbage	jardin
+r_processus_patient	ensemencement du champ	ensemencement	champ
+r_processus_patient	irrigation du champ	irrigation	champ
+r_processus_patient	épandage de l’engrais	épandage	engrais
+r_processus_patient	protection des cultures	protection	cultures
+r_processus_patient	tri des semences	tri	semences
+r_processus_patient	moisson du blé	moisson	blé
+r_processus_patient	broyage du grain	broyage	grain
+r_processus_patient	pulvérisation du produit	pulvérisation	produit
+r_processus_patient	détection de la fuite	détection	fuite
+r_processus_patient	localisation du problème	localisation	problème
+r_processus_patient	résolution du bug	résolution	bug
+
+
+r_processus>instr-1	clé de la porte	clé	porte
+r_processus>instr-1	marteau du menuisier	marteau	menuisier
+r_processus>instr-1	stylo de l'écriture	stylo	écriture
+r_processus>instr-1	pinceau du peintre	pinceau	peintre
+r_processus>instr-1	épée du combat	épée	combat
+r_processus>instr-1	outil de travail	outil	travail
+r_processus>instr-1	arme du crime	arme	crime
+r_processus>instr-1	moyen de transport	moyen	transport
+r_processus>instr-1	instrument de musique	instrument	musique
+r_processus>instr-1	appareil de mesure	appareil	mesure
+r_processus>instr-1	machine de production	machine	production
+r_processus>instr-1	logiciel de traitement	logiciel	traitement
+r_processus>instr-1	système de sécurité	système	sécurité
+r_processus>instr-1	dispositif de contrôle	dispositif	contrôle
+r_processus>instr-1	équipement de protection	équipement	protection
+r_processus>instr-1	couteau de cuisine	couteau	cuisine
+r_processus>instr-1	aiguille de couture	aiguille	couture
+r_processus>instr-1	brosse de nettoyage	brosse	nettoyage
+r_processus>instr-1	scie de menuisier	scie	menuisier
+r_processus>instr-1	balance de pesée	balance	pesée
+r_processus>instr-1	clé du cadenas	clé	cadenas
+r_processus>instr-1	manivelle du treuil	manivelle	treuil
+r_processus>instr-1	levier du mécanisme	levier	mécanisme
+r_processus>instr-1	burin de sculpture	burin	sculpture
+r_processus>instr-1	perceuse du perçage	perceuse	perçage
+r_processus>instr-1	tournevis du montage	tournevis	montage
+r_processus>instr-1	clé anglaise du serrage	clé anglaise	serrage
+r_processus>instr-1	pince du bricolage	pince	bricolage
+r_processus>instr-1	rabot du menuisier	rabot	menuisier
+r_processus>instr-1	soufflet de forge	soufflet	forge
+r_processus>instr-1	chalumeau de soudure	chalumeau	soudure
+r_processus>instr-1	four de cuisson	four	cuisson
+r_processus>instr-1	moulin de broyage	moulin	broyage
+r_processus>instr-1	fouet du mélange	fouet	mélange
+r_processus>instr-1	écumoire de cuisson	écumoire	cuisson
+r_processus>instr-1	spatule du glaçage	spatule	glaçage
+r_processus>instr-1	louche du service	louche	service
+r_processus>instr-1	passoire du filtrage	passoire	filtrage
+r_processus>instr-1	tamis du tri	tamis	tri
+r_processus>instr-1	entonoir du remplissage	entonoir	remplissage
+r_processus>instr-1	aiguille du tricot	aiguille	tricot
+r_processus>instr-1	fil de couture	fil	couture
+r_processus>instr-1	dé à coudre de couture	dé à coudre	couture
+r_processus>instr-1	métier à tisser du tissage	métier à tisser	tissage
+r_processus>instr-1	machine à coudre de couture	machine à coudre	couture
+r_processus>instr-1	rasoir du rasage	rasoir	rasage
+r_processus>instr-1	brosse à dents de brossage	brosse à dents	brossage
+r_processus>instr-1	peigne de coiffage	peigne	coiffage
+r_processus>instr-1	ustensile de nettoyage	ustensile	nettoyage
+r_processus>instr-1	serpillière de lavage	serpillière	lavage
+r_processus>instr-1	seau de lavage	seau	lavage
+r_processus>instr-1	rouleau de peinture	rouleau	peinture
+r_processus>instr-1	vaporisateur de nettoyage	vaporisateur	nettoyage
+r_processus>instr-1	canon d’arrosage	arroseur	arrosage
+r_processus>instr-1	tuyau d’arrosage	tuyau	arrosage
+r_processus>instr-1	arrosoir de jardinage	arrosoir	jardinage
+r_processus>instr-1	râteau du jardinage	râteau	jardinage
+r_processus>instr-1	pelle du creusage	pelle	creusage
+r_processus>instr-1	bêche du jardinage	bêche	jardinage
+r_processus>instr-1	houe du labour	houe	labour
+r_processus>instr-1	tracteur du labour	tracteur	labour
+r_processus>instr-1	sécateur de taille	sécateur	taille
+r_processus>instr-1	tronçonneuse de coupe	tronçonneuse	coupe
+r_processus>instr-1	faucheuse de récolte	faucheuse	récolte
+r_processus>instr-1	hachoir de découpe	hachoir	découpe
+r_processus>instr-1	couteau de tranchage	couteau	tranchage
+r_processus>instr-1	laser de découpe	laser	découpe
+r_processus>instr-1	presse de pressage	presse	pressage
+r_processus>instr-1	malaxeur de mélange	malaxeur	mélange
+r_processus>instr-1	batteur de fouettage	batteur	fouettage
+r_processus>instr-1	laminoir de laminage	laminoir	laminage
+r_processus>instr-1	centrifugeuse de séparation	centrifugeuse	séparation
+r_processus>instr-1	éprouvette de test	éprouvette	test
+r_processus>instr-1	microscope de l’analyse	microscope	analyse
+r_processus>instr-1	télescope de l’observation	télescope	observation
+r_processus>instr-1	baromètre de mesure	baromètre	mesure
+r_processus>instr-1	manomètre de pression	manomètre	pression
+r_processus>instr-1	thermomètre de mesure	thermomètre	mesure
+r_processus>instr-1	hygromètre d’humidité	hygromètre	humidité
+r_processus>instr-1	compas de navigation	compas	navigation
+r_processus>instr-1	gouvernail de pilotage	gouvernail	pilotage
+r_processus>instr-1	rame de propulsion	rame	propulsion
+r_processus>instr-1	antenne de communication	antenne	communication
+r_processus>instr-1	routeur du routage	routeur	routage
+r_processus>instr-1	modem de connexion	modem	connexion
+r_processus>instr-1	clavier de saisie	clavier	saisie
+r_processus>instr-1	souris de navigation numérique	souris	navigation
+r_processus>instr-1	manette de contrôle	manette	contrôle
+r_processus>instr-1	casque d’écoute	casque	écoute
+r_processus>instr-1	microphone de capture	microphone	capture
+r_processus>instr-1	projecteur de projection	projecteur	projection
+r_processus>instr-1	caméra de tournage	caméra	tournage
+r_processus>instr-1	trépied de stabilisation	trépied	stabilisation
+r_processus>instr-1	enregistreur de son	enregistreur	enregistrement
+r_processus>instr-1	amplificateur d’amplification	amplificateur	amplification
+r_processus>instr-1	synthétiseur de bande sonore	synthétiseur	bande sonore
+r_processus>instr-1	violon de musique	violon	musique
+r_processus>instr-1	batterie du rythme	batterie	rythme
+r_processus>instr-1	trompette du morceau	trompette	morceau
+r_processus>instr-1	accordéon du folklore	accordéon	folklore
+r_own-1	voiture de Jean	voiture	Jean
+r_own-1	maison de mes parents	maison	mes parents
+r_own-1	stylo de Marie	stylo	Marie
+r_own-1	ordinateur de l'entreprise	ordinateur	entreprise
+r_own-1	jardin du voisin	jardin	voisin
+r_own-1	livre de Paul	livre	Paul
+r_own-1	montre de ma sœur	montre	ma sœur
+r_own-1	téléphone du directeur	téléphone	directeur
+r_own-1	bureau du professeur	bureau	professeur
+r_own-1	sac de l'étudiante	sac	étudiante
+r_own-1	vélo de l'enfant	vélo	enfant
+r_own-1	lunettes de grand-mère	lunettes	grand-mère
+r_own-1	chien de la famille	chien	famille
+r_own-1	appartement du propriétaire	appartement	propriétaire
+r_own-1	tableau de Van Gogh	tableau	Van Gogh
+r_own-1	collection du musée	collection	musée
+r_own-1	archives de la mairie	archives	mairie
+r_own-1	dossier de l'avocat	dossier	avocat
+r_own-1	cahier de l'élève	cahier	élève
+r_own-1	carte de crédit de Sophie	carte de crédit	Sophie
+r_own-1	chaise de Monsieur Dupont	chaise	Monsieur Dupont
+r_own-1	lampe de mon ami	lampe	mon ami
+r_own-1	voiture de mes parents	voiture	mes parents
+r_own-1	bureau du directeur	bureau	directeur
+r_own-1	jardin de la voisine	jardin	la voisine
+r_own-1	appartement du voisin	appartement	voisin
+r_own-1	vélo de mon frère	vélo	mon frère
+r_own-1	livre de ma cousine	livre	ma cousine
+r_own-1	montre de l’oncle	montre	l’oncle
+r_own-1	ordinateur du collègue	ordinateur	collègue
+r_own-1	sac de la secrétaire	sac	secrétaire
+r_own-1	téléphone de la directrice	téléphone	directrice
+r_own-1	chaussures de mon cousin	chaussures	mon cousin
+r_own-1	robe de ma tante	robe	ma tante
+r_own-1	chien du voisin	chien	voisin
+r_own-1	chat de l’amie	chat	l’amie
+r_own-1	table de la salle de réunion	table	salle de réunion
+r_own-1	livre de la bibliothèque	livre	bibliothèque
+r_own-1	vélo de l’école	vélo	école
+r_own-1	ordinateur du laboratoire	ordinateur	laboratoire
+r_own-1	montre de l’employé	montre	employé
+r_own-1	lampe de la chambre	lampe	chambre
+r_own-1	cahier de l’étudiant	cahier	étudiant
+r_own-1	bureau de l’avocat	bureau	avocat
+r_own-1	maison de mes grands-parents	maison	mes grands-parents
+r_own-1	voiture du voisin	voiture	voisin
+r_own-1	tableau de l’artiste	tableau	artiste
+r_own-1	sac de l’adolescente	sac	adolescente
+r_own-1	téléphone de mon cousin	téléphone	mon cousin
+r_own-1	ordinateur de mon frère	ordinateur	mon frère
+r_own-1	livre du professeur	livre	professeur
+r_own-1	chien de la voisine	chien	la voisine
+r_own-1	chat du voisin	chat	voisin
+r_own-1	montre de mon oncle	montre	mon oncle
+r_own-1	robe de ma sœur	robe	ma sœur
+r_own-1	voiture de mon ami	voiture	mon ami
+r_own-1	bureau de la directrice	bureau	directrice
+r_own-1	appartement du voisin	appartement	voisin
+r_own-1	lunettes de ma cousine	lunettes	ma cousine
+r_own-1	sac de mon frère	sac	mon frère
+r_own-1	chaussures de l’étudiante	chaussures	étudiante
+r_own-1	livre de la bibliothèque	livre	bibliothèque
+r_own-1	téléphone du professeur	téléphone	professeur
+r_own-1	ordinateur de l’employé	ordinateur	employé
+r_own-1	voiture de la voisine	voiture	la voisine
+r_own-1	chien de mon cousin	chien	mon cousin
+r_own-1	chat de mon frère	chat	mon frère
+r_own-1	montre de l’amie	montre	l’amie
+r_own-1	robe de la tante	robe	la tante
+r_own-1	bureau de la secrétaire	bureau	secrétaire
+r_own-1	sac de l’étudiante	sac	étudiante
+r_own-1	téléphone du directeur	téléphone	directeur
+r_own-1	appartement de mes parents	appartement	mes parents
+r_own-1	voiture du voisin	voiture	voisin
+r_own-1	livre de la voisine	livre	la voisine
+r_own-1	ordinateur du professeur	ordinateur	professeur
+r_own-1	montre de mon ami	montre	mon ami
+r_own-1	lampe de l’appartement	lampe	appartement
+r_own-1	chaise du bureau	chaise	bureau
+r_own-1	téléphone de la secrétaire	téléphone	secrétaire
+r_own-1	sac de la directrice	sac	directrice
+r_own-1	bureau de mon oncle	bureau	mon oncle
+r_own-1	livre de mon cousin	livre	mon cousin
+r_own-1	chat de ma cousine	chat	ma cousine
+r_own-1	chien de mon frère	chien	mon frère
+r_own-1	voiture de l’amie	voiture	l’amie
+r_own-1	tableau de la galerie	tableau	galerie
+r_own-1	appartement de la famille	appartement	famille
+r_own-1	sac de mon cousin	sac	mon cousin
+r_own-1	montre de la grand-mère	montre	grand-mère
+r_own-1	ordinateur de l’entreprise	ordinateur	entreprise
+r_own-1	livre du musée	livre	musée
+r_own-1	chaise de la salle	chaise	salle
+r_own-1	téléphone du voisin	téléphone	voisin
+r_own-1	voiture de l’entreprise	voiture	entreprise
+r_own-1	bureau de mon frère	bureau	mon frère
+r_own-1	chat de la famille	chat	famille
+r_own-1	livre de ma sœur	livre	ma sœur
+r_own-1	appartement du professeur	appartement	professeur
+r_own-1	sac de l’étudiant	sac	étudiant
+r_own-1	montre de mon cousin	montre	mon cousin
+r_has_causatif	dégâts de la tempête	dégâts	tempête
+r_has_causatif	retard du train	retard	train
+r_has_causatif	blessures de l'accident	blessures	accident
+r_has_causatif	effets de la pollution	effets	pollution
+r_has_causatif	traces de l'incendie	traces	incendie
+r_has_causatif	séquelles de la maladie	séquelles	maladie
+r_has_causatif	conséquences de la crise	conséquences	crise
+r_has_causatif	résultats de l'enquête	résultats	enquête
+r_has_causatif	fruits du travail	fruits	travail
+r_has_causatif	bénéfices de l'investissement	bénéfices	investissement
+r_has_causatif	ravages de la guerre	ravages	guerre
+r_has_causatif	victimes de l'épidémie	victimes	épidémie
+r_has_causatif	impacts du réchauffement	impacts	réchauffement
+r_has_causatif	répercussions de la décision	répercussions	décision
+r_has_causatif	dommages de l'inondation	dommages	inondation
+r_has_causatif	échec de la négociation	échec	négociation
+r_has_causatif	succès de l'entreprise	succès	entreprise
+r_has_causatif	ruines du tremblement	ruines	tremblement
+r_has_causatif	pertes de la bataille	pertes	bataille
+r_has_causatif	gains de la fusion	gains	fusion
+r_has_causatif	dégâts de l'ouragan	dégâts	ouragan
+r_has_causatif	retard de l'avion	retard	avion
+r_has_causatif	blessures de l'accident de voiture	blessures	accident de voiture
+r_has_causatif	effets du changement climatique	effets	changement climatique
+r_has_causatif	traces de l'explosion	traces	explosion
+r_has_causatif	séquelles de l'incendie	séquelles	incendie
+r_has_causatif	conséquences du tremblement de terre	conséquences	tremblement de terre
+r_has_causatif	résultats du test	résultats	test
+r_has_causatif	fruits de l'effort	fruits	effort
+r_has_causatif	ravages de l'épidémie	ravages	épidémie
+r_has_causatif	victimes de la guerre	victimes	guerre
+r_has_causatif	impacts de la tempête	impacts	tempête
+r_has_causatif	répercussions du changement	répercussions	changement
+r_has_causatif	dommages de la catastrophe	dommages	catastrophe
+r_has_causatif	échec de l'opération	échec	opération
+r_has_causatif	succès du projet	succès	projet
+r_has_causatif	ruines du séisme	ruines	séisme
+r_has_causatif	pertes de l'armée	pertes	armée
+r_has_causatif	gains du secteur	gains	secteur
+r_has_causatif	dégâts de l'averse	dégâts	averse
+r_has_causatif	retard du métro	retard	métro
+r_has_causatif	blessures de la chute	blessures	chute
+r_has_causatif	effets de la sécheresse	effets	sécheresse
+r_has_causatif	traces du déraillement	traces	déraillement
+r_has_causatif	séquelles de l'accident médical	séquelles	accident médical
+r_has_causatif	conséquences du conflit	conséquences	conflit
+r_has_causatif	résultats de l'expérience	résultats	expérience
+r_has_causatif	fruits de la recherche	fruits	recherche
+r_has_causatif	bénéfices de la vente	bénéfices	vente
+r_has_causatif	ravages du feu	ravages	feu
+r_has_causatif	victimes du tremblement	victimes	tremblement
+r_has_causatif	impacts du séisme	impacts	séisme
+r_has_causatif	répercussions de l'erreur	répercussions	erreur
+r_has_causatif	dommages du cyclone	dommages	cyclone
+r_has_causatif	échec du projet	échec	projet
+r_has_causatif	succès du lancement	succès	lancement
+r_has_causatif	ruines de l'édifice	ruines	édifice
+r_has_causatif	pertes de l'entreprise	pertes	entreprise
+r_has_causatif	gains du commerce	gains	commerce
+r_has_causatif	dégâts de l'avalanche	dégâts	avalanche
+r_has_causatif	retard du bateau	retard	bateau
+r_has_causatif	blessures du joueur	blessures	joueur
+r_has_causatif	effets du virus	effets	virus
+r_has_causatif	traces de l'accident	traces	accident
+r_has_causatif	séquelles de la tempête	séquelles	tempête
+r_has_causatif	conséquences du tremblement	conséquences	tremblement
+r_has_causatif	résultats du match	résultats	match
+r_has_causatif	fruits de l'économie	fruits	économie
+r_has_causatif	bénéfices du contrat	bénéfices	contrat
+r_has_causatif	ravages du tsunami	ravages	tsunami
+r_has_causatif	victimes de l'explosion	victimes	explosion
+r_has_causatif	impacts du déraillement	impacts	déraillement
+r_has_causatif	répercussions de la grève	répercussions	grève
+r_has_causatif	dommages de l'incident	dommages	incident
+r_has_causatif	échec de l'opération	échec	opération
+r_has_causatif	succès de l'événement	succès	événement
+r_has_causatif	ruines du bâtiment	ruines	bâtiment
+r_has_causatif	pertes du marché	pertes	marché
+r_has_causatif	gains du pari	gains	pari
+r_has_causatif	dégâts de l'orage	dégâts	orage
+r_has_causatif	retard du bus	retard	bus
+r_has_causatif	blessures de l'accident domestique	blessures	accident domestique
+r_has_causatif	effets de la catastrophe	effets	catastrophe
+r_has_causatif	traces du vandalisme	traces	vandalisme
+r_has_causatif	séquelles de l'incendie	séquelles	incendie
+r_has_causatif	conséquences de la tempête	conséquences	tempête
+r_has_causatif	résultats du vote	résultats	vote
+r_has_causatif	fruits de l'investissement	fruits	investissement
+r_has_causatif	bénéfices de la fusion	bénéfices	fusion
+r_has_causatif	ravages de l'accident	ravages	accident
+r_has_causatif	victimes du séisme	victimes	séisme
+r_has_causatif	impacts du cyclone	impacts	cyclone
+r_has_causatif	répercussions du retard	répercussions	retard
+r_has_causatif	dommages du feu	dommages	feu
+r_has_causatif	échec de l'expérience	échec	expérience
+r_has_causatif	succès du tournoi	succès	tournoi
+r_has_causatif	ruines de la ville	ruines	ville
+r_has_causatif	pertes du conflit	pertes	conflit
+r_has_causatif	gains du projet	gains	projet
+r_has_causatif	dégâts du tremblement	dégâts	tremblement
+r_has_causatif	retard du chantier	retard	chantier
+r_has_causatif	blessures de l'accident de chantier	blessures	accident de chantier
+r_has_causatif	effets de la pollution industrielle	effets	pollution industrielle
+r_product_of	roman de Zola	roman	Zola
+r_product_of	symphonie de Beethoven	symphonie	Beethoven
+r_product_of	tableau de Picasso	tableau	Picasso
+r_product_of	film de Spielberg	film	Spielberg
+r_product_of	théorie d'Einstein	théorie	Einstein
+r_product_of	poème de Baudelaire	poème	Baudelaire
+r_product_of	invention de Tesla	invention	Tesla
+r_product_of	découverte de Pasteur	découverte	Pasteur
+r_product_of	œuvre de Mozart	œuvre	Mozart
+r_product_of	création de Dior	création	Dior
+r_product_of	design de Philippe Starck	design	Philippe Starck
+r_product_of	recette du chef	recette	chef
+r_product_of	modèle de l'architecte	modèle	architecte
+r_product_of	chanson de Brel	chanson	Brel
+r_product_of	sculpture de Rodin	sculpture	Rodin
+r_product_of	brevet de l'inventeur	brevet	inventeur
+r_product_of	partition de Chopin	partition	Chopin
+r_product_of	plan de l'ingénieur	plan	ingénieur
+r_product_of	chorégraphie de Béjart	chorégraphie	Béjart
+r_product_of	collection de Chanel	collection	Chanel
+r_product_of	roman de Hugo	roman	Hugo
+r_product_of	symphonie de Tchaïkovski	symphonie	Tchaïkovski
+r_product_of	tableau de Monet	tableau	Monet
+r_product_of	film de Tarantino	film	Tarantino
+r_product_of	théorie de Newton	théorie	Newton
+r_product_of	poème de Rimbaud	poème	Rimbaud
+r_product_of	invention de Edison	invention	Edison
+r_product_of	découverte de Curie	découverte	Curie
+r_product_of	œuvre de Beethoven	œuvre	Beethoven
+r_product_of	création de Vuitton	création	Vuitton
+r_product_of	design de Le Corbusier	design	Le Corbusier
+r_product_of	recette du pâtissier	recette	pâtissier
+r_product_of	modèle de Gaudi	modèle	Gaudi
+r_product_of	chanson de Gainsbourg	chanson	Gainsbourg
+r_product_of	sculpture de Giacometti	sculpture	Giacometti
+r_product_of	brevet de Marconi	brevet	Marconi
+r_product_of	partition de Vivaldi	partition	Vivaldi
+r_product_of	plan de Le Nôtre	plan	Le Nôtre
+r_product_of	chorégraphie de Nureyev	chorégraphie	Nureyev
+r_product_of	collection de Givenchy	collection	Givenchy
+r_product_of	roman de Proust	roman	Proust
+r_product_of	symphonie de Mahler	symphonie	Mahler
+r_product_of	tableau de Dali	tableau	Dali
+r_product_of	film de Hitchcock	film	Hitchcock
+r_product_of	théorie de Darwin	théorie	Darwin
+r_product_of	poème de Verlaine	poème	Verlaine
+r_product_of	invention de Wright	invention	Wright
+r_product_of	découverte de Fleming	découverte	Fleming
+r_product_of	œuvre de Bach	œuvre	Bach
+r_product_of	création de Prada	création	Prada
+r_product_of	design de Zaha Hadid	design	Zaha Hadid
+r_product_of	recette du chef étoilé	recette	chef étoilé
+r_product_of	modèle de Le Corbusier	modèle	Le Corbusier
+r_product_of	chanson de Brassens	chanson	Brassens
+r_product_of	sculpture de Michel-Ange	sculpture	Michel-Ange
+r_product_of	brevet du physicien	brevet	Watt
+r_product_of	partition de Liszt	partition	Liszt
+r_product_of	plan de Eiffel	plan	Eiffel
+r_product_of	chorégraphie de Balanchine	chorégraphie	Balanchine
+r_product_of	collection de Hermès	collection	Hermès
+r_product_of	roman de Camus	roman	Camus
+r_product_of	symphonie de Schubert	symphonie	Schubert
+r_product_of	tableau de Renoir	tableau	Renoir
+r_product_of	film de Kubrick	film	Kubrick
+r_product_of	théorie de Bohr	théorie	Bohr
+r_product_of	poème de Mallarmé	poème	Mallarmé
+r_product_of	invention de Faraday	invention	Faraday
+r_product_of	découverte de Darwin	découverte	Darwin
+r_product_of	œuvre de Haydn	œuvre	Haydn
+r_product_of	création de l'artiste	création	Saint Laurent
+r_product_of	design de Norman Foster	design	Norman Foster
+r_product_of	recette du chef pâtissier	recette	chef pâtissier
+r_product_of	modèle de Frank Lloyd Wright	modèle	Frank Lloyd Wright
+r_product_of	chanson de Piaf	chanson	Piaf
+r_product_of	sculpture de Bernini	sculpture	Bernini
+r_product_of	brevet de Graham Bell	brevet	Graham Bell
+r_product_of	partition de Schumann	partition	Schumann
+r_product_of	plan de Haussmann	plan	Haussmann
+r_product_of	chorégraphie de Martha Graham	chorégraphie	Martha Graham
+r_product_of	collection de Dior	collection	Dior
+r_product_of	roman de Balzac	roman	Balzac
+r_product_of	symphonie de Rachmaninov	symphonie	Rachmaninov
+r_product_of	tableau de Matisse	tableau	Matisse
+r_product_of	film de Leone	film	Leone
+r_product_of	théorie de Maxwell	théorie	Maxwell
+r_product_of	poème de Hugo	poème	Hugo
+r_product_of	invention de Morse	invention	Morse
+r_product_of	découverte de Galilée	découverte	Galilée
+r_product_of	œuvre de Chopin	œuvre	Chopin
+r_product_of	création de Chanel	création	Chanel
+r_product_of	design de Dieter Rams	design	Dieter Rams
+r_product_of	recette du chef cuisinier	recette	chef cuisinier
+r_product_of	modèle de Le Corbusier	modèle	Le Corbusier
+r_product_of	chanson de Nougaro	chanson	Nougaro
+r_product_of	sculpture de Rodin	sculpture	Rodin
+r_product_of	brevet de Edison	brevet	Edison
+r_product_of	partition de Mozart	partition	Mozart
+r_product_of	plan de Gaudi	plan	Gaudi
+r_product_of	chorégraphie de Béjart	chorégraphie	Béjart
+r_product_of	collection de Versace	collection	Versace
+r_topic	film d'horreur	film	horreur
+r_topic	livre de cuisine	livre	cuisine
+r_topic	cours de mathématiques	cours	mathématiques
+r_topic	magazine de mode	magazine	mode
+r_topic	émission de télévision	émission	télévision
+r_topic	article de sport	article	sport
+r_topic	restaurant de sushis	restaurant	sushis
+r_topic	musée d'art moderne	musée	art moderne
+r_topic	festival de musique	festival	musique
+r_topic	conférence de presse	conférence	presse
+r_topic	débat de société	débat	société
+r_topic	histoire d'amour	histoire	amour
+r_topic	roman de science-fiction	roman	science-fiction
+r_topic	documentaire de nature	documentaire	nature
+r_topic	exposition de photographie	exposition	photographie
+r_topic	manuel de français	manuel	français
+r_topic	guide de voyage	guide	voyage
+r_topic	blog de technologie	blog	technologie
+r_topic	forum de discussion	forum	discussion
+r_topic	site de commerce	site	commerce
+r_topic	film de comédie	film	comédie
+r_topic	livre d'histoire	livre	histoire
+r_topic	cours de physique	cours	physique
+r_topic	magazine de voyage	magazine	voyage
+r_topic	émission de radio	émission	radio
+r_topic	article de politique	article	politique
+r_topic	restaurant de cuisine italienne	restaurant	italienne
+r_topic	musée d'histoire naturelle	musée	histoire naturelle
+r_topic	festival de cinéma	festival	cinéma
+r_topic	conférence de sciences	conférence	sciences
+r_topic	débat de politique	débat	politique
+r_topic	histoire de guerre	histoire	guerre
+r_topic	roman d'aventure	roman	aventure
+r_topic	exposition de peinture	exposition	peinture
+r_topic	manuel de mathématiques	manuel	mathématiques
+r_topic	guide de gastronomie	guide	gastronomie
+r_topic	blog de mode	blog	mode
+r_topic	forum de technologie	forum	technologie
+r_topic	site d'éducation	site	éducation
+r_topic	film de drame	film	drame
+r_topic	livre de poésie	livre	poésie
+r_topic	cours de chimie	cours	chimie
+r_topic	magazine de sport	magazine	sport
+r_topic	émission de culture	émission	culture
+r_topic	article de santé	article	santé
+r_topic	restaurant de gastronomie française	restaurant	gastronomie française
+r_topic	musée de sciences	musée	sciences
+r_topic	festival de théâtre	festival	théâtre
+r_topic	conférence de l'environnement	conférence	environnement
+r_topic	débat d'économie	débat	économie
+r_topic	histoire de la littérature	histoire	littérature
+r_topic	roman de fantaisie	roman	fantaisie
+r_topic	documentaire d'immersion	documentaire	immersion
+r_topic	exposition d'architecture	exposition	architecture
+r_topic	manuel d'anglais	manuel	anglais
+r_topic	guide de tourisme	guide	tourisme
+r_topic	blog de photographie	blog	photographie
+r_topic	forum de politique	forum	politique
+r_topic	site d'actualités	site	actualités
+r_topic	film d'aventure	film	aventure
+r_topic	livre de science	livre	science
+r_topic	cours de musique	cours	musique
+r_topic	magazine d'art	magazine	art
+r_topic	émission de sport	émission	sport
+r_topic	article de culture	article	culture
+r_topic	restaurant de cuisine chinoise	restaurant	cuisine chinoise
+r_topic	musée du cinéma	musée	cinéma
+r_topic	festival de pop	festival	pop
+r_topic	fête du chocolat	fête	chocolat
+r_topic	histoire de la musique	histoire	musique
+r_topic	roman de philosophie	roman	philosophie
+r_topic	documentaire d'art contemporain	documentaire	art contemporain
+r_topic	exposition de sculpture	exposition	sculpture
+r_topic	manuel de géographie	manuel	géographie
+r_topic	guide de survie	guide	survie
+r_topic	blog de chats	blog	chats
+r_topic	forum d'éducation	forum	éducation
+r_topic	site de voyage	site	voyage
+r_topic	film de Noël	film	Noël
+r_topic	livre d'apprentissage	livre	apprentissage
+r_topic	cours de littérature	cours	littérature
+r_topic	magazine de supermarché	magazine	supermarché
+r_topic	émission d'information	émission	information
+r_topic	article de recherche	article	recherche
+r_topic	restaurant  de tapas	restaurant	tapas
+r_topic	musée d'ethnographie	musée	ethnographie
+r_topic	festival de danse	festival	danse
+r_topic	fête de la connaissance	fête	connaissance
+r_topic	débat de sociologie	débat	sociologie
+r_topic	histoire de la planète	histoire	planète
+r_topic	roman de mystère	roman	mystère
+r_topic	documentaire de science fiction	documentaire	science fiction
+r_topic	exposition de mode	exposition	mode
+r_topic	manuel de physique	manuel	physique
+r_topic	guide d'utilisation	guide	utilisation
+r_topic	blog de bricolage	blog	bricolage
+r_topic	forum de voyage	forum	voyage
+r_topic	site de vente en ligne	site	vente en ligne
+r_has_property-1	beauté du paysage	beauté	paysage
+r_has_property-1	sagesse du vieillard	sagesse	vieillard
+r_has_property-1	force du vent	force	vent
+r_has_property-1	douceur de la soie	douceur	soie
+r_has_property-1	fraîcheur du matin	fraîcheur	matin
+r_has_property-1	chaleur de l'été	chaleur	été
+r_has_property-1	tristesse de la séparation	tristesse	séparation
+r_has_property-1	joie des retrouvailles	joie	retrouvailles
+r_has_property-1	complexité du problème	complexité	problème
+r_has_property-1	simplicité de la solution	simplicité	solution
+r_has_property-1	importance de la décision	importance	décision
+r_has_property-1	urgence de la situation	urgence	situation
+r_has_property-1	rareté du diamant	rareté	diamant
+r_has_property-1	valeur de l'or	valeur	or
+r_has_property-1	profondeur de l'océan	profondeur	océan
+r_has_property-1	hauteur de la montagne	hauteur	montagne
+r_has_property-1	vitesse du train	vitesse	train
+r_has_property-1	couleur du ciel	couleur	ciel
+r_has_property-1	température de l'eau	température	eau
+r_has_property-1	densité du métal	densité	métal
+r_has_property-1	luminosité du soleil	luminosité	soleil
+r_has_property-1	profondeur du lac	profondeur	lac
+r_has_property-1	force de la rivière	force	rivière
+r_has_property-1	douceur du velours	douceur	velours
+r_has_property-1	fraîcheur de l'air	fraîcheur	air
+r_has_property-1	chaleur du feu	chaleur	feu
+r_has_property-1	tristesse de la perte	tristesse	perte
+r_has_property-1	joie du succès	joie	succès
+r_has_property-1	complexité du mécanisme	complexité	mécanisme
+r_has_property-1	simplicité de l'explication	simplicité	explication
+r_has_property-1	importance du projet	importance	projet
+r_has_property-1	urgence de l'appel	urgence	appel
+r_has_property-1	rareté du cristal	rareté	cristal
+r_has_property-1	valeur de la peinture	valeur	peinture
+r_has_property-1	profondeur de la forêt	profondeur	forêt
+r_has_property-1	hauteur du bâtiment	hauteur	bâtiment
+r_has_property-1	vitesse de l'avion	vitesse	avion
+r_has_property-1	couleur de la fleur	couleur	fleur
+r_has_property-1	température de l'air	température	air
+r_has_property-1	densité du bois	densité	bois
+r_has_property-1	luminosité de la lune	luminosité	lune
+r_has_property-1	profondeur du puits	profondeur	puits
+r_has_property-1	force du courant	force	courant
+r_has_property-1	douceur du coton	douceur	coton
+r_has_property-1	fraîcheur du vent	fraîcheur	vent
+r_has_property-1	chaleur de la journée	chaleur	journée
+r_has_property-1	tristesse du chagrin	tristesse	chagrin
+r_has_property-1	souplesse de l'enfant	souplesse	enfant
+r_has_property-1	complexité du système	complexité	système
+r_has_property-1	simplicité du procédé	simplicité	procédé
+r_has_property-1	importance de la mission	importance	mission
+r_has_property-1	urgence du secours	urgence	secours
+r_has_property-1	rareté du fossile	rareté	fossile
+r_has_property-1	valeur du bijou	valeur	bijou
+r_has_property-1	profondeur de la mer	profondeur	mer
+r_has_property-1	hauteur de l'arbre	hauteur	arbre
+r_has_property-1	vitesse du vent	vitesse	vent
+r_has_property-1	couleur du drapeau	couleur	drapeau
+r_has_property-1	température du four	température	four
+r_has_property-1	densité de l'eau	densité	eau
+r_has_property-1	luminosité de l'étoile	luminosité	étoile
+r_has_property-1	profondeur du canyon	profondeur	canyon
+r_has_property-1	force de l'orage	force	orage
+r_has_property-1	douceur du miel	douceur	miel
+r_has_property-1	fraîcheur de la brise	fraîcheur	brise
+r_has_property-1	chaleur du soleil	chaleur	soleil
+r_has_property-1	tristesse du deuil	tristesse	deuil
+r_has_property-1	joie de la victoire	joie	victoire
+r_has_property-1	complexité du puzzle	complexité	puzzle
+r_has_property-1	simplicité du dessin	simplicité	dessin
+r_has_property-1	importance du document	importance	document
+r_has_property-1	urgence de la tâche	urgence	tâche
+r_has_property-1	rareté de la perle	rareté	perle
+r_has_property-1	valeur de la monnaie	valeur	monnaie
+r_has_property-1	profondeur de la grotte	profondeur	grotte
+r_has_property-1	hauteur de la falaise	hauteur	falaise
+r_has_property-1	vitesse du cheval	vitesse	cheval
+r_has_property-1	couleur du ciel nocturne	couleur	ciel nocturne
+r_has_property-1	température du liquide	température	liquide
+r_has_property-1	densité du béton	densité	béton
+r_has_property-1	luminosité du phare	luminosité	phare
+r_has_property-1	profondeur de l'abîme	profondeur	abîme
+r_has_property-1	force du choc	force	choc
+r_has_property-1	douceur de la laine	douceur	laine
+r_has_property-1	fraîcheur du lac	fraîcheur	lac
+r_has_property-1	chaleur du brasero	chaleur	brasero
+r_has_property-1	tristesse de l'exil	tristesse	exil
+r_has_property-1	joie de Noël	joie	Noël
+r_has_property-1	complexité de l'énigme	complexité	énigme
+r_has_property-1	simplicité de l'instruction	simplicité	instruction
+r_has_property-1	importance du rôle	importance	rôle
+r_has_property-1	urgence de l'intervention	urgence	intervention
+r_has_property-1	rareté de la roche	rareté	roche
+r_has_property-1	valeur de l'antiquité	valeur	antiquité
+r_has_property-1	profondeur du fjord	profondeur	fjord
+r_has_property-1	hauteur du gratte-ciel	hauteur	gratte-ciel
+r_has_property-1	vitesse du courant	vitesse	courant
+r_has_property-1	couleur du vêtement	couleur	vêtement
+r_has_property-1	température de l'air ambiant	température	air ambiant
+r_has_property-1	densité du sable	densité	sable
